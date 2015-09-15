@@ -13,7 +13,7 @@ This repository contains:
   to be adapted to fit your needs;
 * Schematics for an **electronics board** containing all the components to get
   the values from the sensors and communicate them through dynamixel;
-* A **firmware** compliant with the electronics;
+* A [**firmware**](firmware/README.md) compliant with the electronics;
 * **Documentation and examples**.
 
 ## Sourcing the gauges
