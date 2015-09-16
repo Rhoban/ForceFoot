@@ -66,4 +66,4 @@ The center of pressure can be computed using barycenter of the points (the x,y o
 with the force applied on it.
 
 This result can be found using the sum of moments equation (a simimar problem is solved in [this
-thesis, page 34](http://ir.library.oregonstate.edu/xmlui/bitstream/handle/1957/29797/SchaferChristopherA2005.pdf).
+thesis, page 34](http://ir.library.oregonstate.edu/xmlui/bitstream/handle/1957/29797/SchaferChristopherA2005.pdf)).
