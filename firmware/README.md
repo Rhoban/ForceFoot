@@ -37,3 +37,6 @@ can be changed in the header of `main.cpp`. (Default model number 5000, id 123 a
 Each gauge value is a signed 24 bit value, resulting in a total of 3 bytes. Thus, the values
 of the four gauges are 12 bytes. These bytes can be read at the present position address
 of the dynamixel registers (0x24).
+
+Note that the values will not be trimmed, you'll have to write some code to get the 0-offset
+and save it somewhere.
