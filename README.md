@@ -10,7 +10,7 @@ or open an issue on this repository.
 
 ## Repository contents
 
-This repository contains:
+Here are the repository contents, you can click on below links to get the documentation:
 
 * A [**mechanical design**](3d) suitable for Rhoban robots, that can be a good base
   to be adapted to fit your needs;
