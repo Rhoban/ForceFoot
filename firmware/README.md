@@ -27,4 +27,13 @@ This will send the firmware on the board
 
 ## Protocol
 
-TODO
+The protocol is very straightforward, the board will appear exactly like a dynamixel 
+servo, with a fancy model number and its own ID.
+
+Model ID, ID and baudrate are not configurable on-the-fly with the current version, it
+can be changed in the header of `main.cpp`. (Default model number 5000, id 123 and baudrate
+1000000).
+
+Each gauge value is a signed 24 bit value, resulting in a total of 3 bytes. Thus, the values
+of the four gauges are 12 bytes. These bytes can be read at the present position address
+of the dynamixel registers (0x24).

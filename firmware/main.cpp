@@ -8,6 +8,11 @@
 #include "dxl_protocol.h"
 #include "HX711.h"
 
+// Configuration of the foot
+#define DXL_ID          123
+#define DXL_MODEL       5000
+#define DXL_BAUD        1000000
+
 // #define DEBUG
 // #define DXL_SERIALUSB
 
@@ -18,16 +23,16 @@ struct dxl_packet packet, answer;
  * Hardware
  */
 
-// HX711s
-#define BALANCES        4
+// HX711 chips
 HX711 b1(15, 16);
 HX711 b2(17, 18);
 HX711 b3(19, 20);
 HX711 b4(21, 22);
-HX711 *balances[4] = {&b1, &b2, &b3, &b4};
-int currentHX711 = 0;
+HX711 *balances[] = {&b1, &b2, &b3, &b4};
+#define BALANCES (sizeof(balances)/sizeof(HX711*))
+int currentBalance = 0;
 
-// Bus
+// Dynamixel bus
 #define DIRECTION       2
 #ifdef DXL_SERIALUSB
 #define port            SerialUSB
@@ -56,13 +61,6 @@ TERMINAL_COMMAND(values, "Show balance values")
         }
     }
 #endif
-}
-
-TERMINAL_COMMAND(tare, "Tare")
-{
-    for (int k=0; k<BALANCES; k++) {
-        balances[k]->tare();
-    }
 }
 
 bool dxl_check_id(ui8 id)
@@ -143,22 +141,23 @@ void setup()
 
     // Dynamixel bus
 #ifndef DXL_SERIALUSB
-    port.begin(1000000);
+    port.begin(DXL_BAUD);
 #endif
     digitalWrite(DIRECTION, LOW);
     pinMode(DIRECTION, OUTPUT);
     dxl_packet_init(&packet);
     dxl_packet_init(&answer);
 
-    registers.eeprom.id = 123;
-    registers.eeprom.modelNumber = 5000;
+    registers.eeprom.id = DXL_ID;
+    registers.eeprom.modelNumber = DXL_MODEL;
     registers.eeprom.firmwareVersion = 1;
 
 #ifdef DEBUG
     // Terminal
     terminal_init(&SerialUSB);
 #endif
-    // Initializing balances and running tare
+
+    // Initializing balances
     for (int k=0; k<BALANCES; k++) {
         balances[k]->init();
     }
@@ -171,9 +170,9 @@ void setup()
 void loop()
 {
     // Reading balances data, if any
-    balances[currentHX711++]->tick();
-    if (currentHX711 >= BALANCES) {
-        currentHX711 = 0;
+    balances[currentBalance++]->tick();
+    if (currentBalance >= BALANCES) {
+        currentBalance = 0;
     }
 
 #ifdef DEBUG
