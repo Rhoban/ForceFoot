@@ -8,7 +8,7 @@ through the dynamixel bus.
 Some optional resistors on this board can be used to support dynamixel TTL/485 and 3/4 wire
 gauges:
 
-![optional features](docs/board.png)
+![optional features](../docs/board.png)
 
 
 ## Components
