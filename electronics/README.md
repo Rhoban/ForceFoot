@@ -22,7 +22,7 @@ the MAX485 (or ST485) chip able to listen TTL, while perfectly respecting its sp
 
 ### 3-wire or 4-wire gauges
 
-There is two main kind of system, half-bridges, which looks like that:
+There is two main kind of mounting, half-bridges, which looks like that:
 
 ![half-bridge](../docs/half-bridge.png)
 
