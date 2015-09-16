@@ -11,7 +11,7 @@ This repository contains:
 
 * A **mechanical design** suitable for Rhoban robots, that can be a good base
   to be adapted to fit your needs;
-* Schematics for an **electronics board** containing all the components to get
+* Schematics for an  [**electronics board**](electronics) containing all the components to get
   the values from the sensors and communicate them through dynamixel;
 * A [**firmware**](firmware) compliant with the electronics;
 * **Documentation and examples**.
