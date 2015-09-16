@@ -3,6 +3,9 @@
 Here is a design of a robot foot using strain gauges as force sensors.
 It was used by the Rhoban Football Club (France) during the RoboCup 2015.
 
+If you have any question feel free to contact team@rhoban.com to ask it,
+or open an issue on this repository.
+
 ![force foot](docs/sigmaban_foot.png)
 
 ## Repository contents
@@ -13,8 +16,7 @@ This repository contains:
   to be adapted to fit your needs;
 * Schematics for an  [**electronics board**](electronics) containing all the components to get
   the values from the sensors and communicate them through dynamixel;
-* A [**firmware**](firmware) compliant with the electronics;
-* **Documentation and examples**.
+* A [**firmware**](firmware) for the controller that is on the electronics.
 
 ## Sourcing the gauges
 
@@ -30,9 +32,6 @@ separately.
 You can buy low-cost ones from [AliExpress](http://www.aliexpress.com/wholesale?SearchText=strain+gauge+5kg),
 eBay or any general purpose market place.
 
-There is different gauges out there, this design is intended to work with
+There is different gauges out there, we recommend suing
 differential ones (featuring wheatstone bridge arrangement, 4 wires). 
-
-## Mechanical considerations
-
 
