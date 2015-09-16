@@ -18,20 +18,3 @@ This repository contains:
   the values from the sensors and communicate them through dynamixel;
 * A [**firmware**](firmware) for the controller that is on the electronics.
 
-## Sourcing the gauges
-
-The design is based on [Strain gauges](https://en.wikipedia.org/wiki/Strain_gauge).
-You can buy the sensor itself separately, and also find it with mechanical
-(mostly aluminium) shaft, we recommend this last option since it's not expansive
-and already guarantee to have a correct bending.
-
-The first thing you'll need is to get gauges fitting your needs, we used 5kg
-nominal, which is about the maximum weight that they should have to hold
-separately.
-
-You can buy low-cost ones from [AliExpress](http://www.aliexpress.com/wholesale?SearchText=strain+gauge+5kg),
-eBay or any general purpose market place.
-
-There is different gauges out there, we recommend suing
-differential ones (featuring wheatstone bridge arrangement, 4 wires). 
-
