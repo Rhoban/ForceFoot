@@ -36,3 +36,5 @@ The `foot.ipt` represents the 3D-printed part for the foot, we recommend adjusti
 the holes to fix it to the rest of your robot.
 
 When printing it, you may fill this part with a reasonable amount of material.
+
+[Continue through the docs with electronics »](../electronics)

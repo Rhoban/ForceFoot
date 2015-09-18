@@ -70,3 +70,4 @@ You'll need a Maple Mini board and its sockets (you can also solder it directly 
 The amps are HX711, a really widespread chip that is use in weight scales
 Small transistors are PNP S8550 (SOT-23 package)
 
+[Continue through the docs with the firmware »](../firmware)
