@@ -976,6 +976,12 @@ grid 3.5 mm, diameter 8 mm</description>
 <smd name="P$3" x="5.08" y="0" dx="2.54" dy="1.905" layer="1" rot="R90"/>
 <smd name="P$4" x="7.62" y="0" dx="2.54" dy="1.905" layer="1" rot="R90"/>
 </package>
+<package name="4P1.5">
+<pad name="P$1" x="0" y="0" drill="0.8"/>
+<pad name="P$2" x="1.5" y="0" drill="0.8"/>
+<pad name="P$3" x="3" y="0" drill="0.8"/>
+<pad name="P$4" x="4.5" y="0" drill="0.8"/>
+</package>
 </packages>
 <symbols>
 <symbol name="HX711">
@@ -1235,6 +1241,17 @@ grid 3.5 mm, diameter 8 mm</description>
 </technologies>
 </device>
 <device name="PADS" package="4PAD">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+<connect gate="G$1" pin="4" pad="P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="1.5" package="4P1.5">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
@@ -2427,14 +2444,14 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="R46" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="3K"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="U$23" library="rhoban" deviceset="CONNEC_1X03" device=""/>
-<part name="U$3" library="rhoban" deviceset="CONNEC_1X04" device="&quot;"/>
-<part name="U$7" library="rhoban" deviceset="CONNEC_1X04" device="&quot;"/>
-<part name="U$10" library="rhoban" deviceset="CONNEC_1X04" device="&quot;"/>
-<part name="U$13" library="rhoban" deviceset="CONNEC_1X04" device="&quot;"/>
-<part name="U$14" library="rhoban" deviceset="CONNEC_1X04" device="&quot;"/>
-<part name="U$18" library="rhoban" deviceset="CONNEC_1X04" device="&quot;"/>
-<part name="U$20" library="rhoban" deviceset="CONNEC_1X04" device="&quot;"/>
-<part name="U$22" library="rhoban" deviceset="CONNEC_1X04" device="&quot;"/>
+<part name="U$3" library="rhoban" deviceset="CONNEC_1X04" device="1.5"/>
+<part name="U$7" library="rhoban" deviceset="CONNEC_1X04" device="1.5"/>
+<part name="U$10" library="rhoban" deviceset="CONNEC_1X04" device="1.5"/>
+<part name="U$13" library="rhoban" deviceset="CONNEC_1X04" device="1.5"/>
+<part name="U$14" library="rhoban" deviceset="CONNEC_1X04" device="1.5"/>
+<part name="U$18" library="rhoban" deviceset="CONNEC_1X04" device="1.5"/>
+<part name="U$20" library="rhoban" deviceset="CONNEC_1X04" device="1.5"/>
+<part name="U$22" library="rhoban" deviceset="CONNEC_1X04" device="1.5"/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
