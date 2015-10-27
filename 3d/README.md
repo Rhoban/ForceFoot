@@ -1,5 +1,7 @@
 # 3D design
 
+![3d](../docs/3d.png)
+
 This is 3D designs for a foot. The files were created using Autodesk Inventor
 2015 CAD software. If you are student, you can get a free version here:
 http://www.autodesk.com/education/free-software/all
