@@ -2470,6 +2470,14 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="C38" library="SparkFun-Passives" deviceset="CAP" device="0805" value="20pF"/>
 <part name="C39" library="SparkFun-Passives" deviceset="CAP" device="0805" value="20pF"/>
 <part name="C40" library="SparkFun-Passives" deviceset="CAP" device="0805" value="20pF"/>
+<part name="GND9" library="supply1" deviceset="GND" device=""/>
+<part name="GND24" library="supply1" deviceset="GND" device=""/>
+<part name="GND25" library="supply1" deviceset="GND" device=""/>
+<part name="GND26" library="supply1" deviceset="GND" device=""/>
+<part name="GND27" library="supply1" deviceset="GND" device=""/>
+<part name="GND28" library="supply1" deviceset="GND" device=""/>
+<part name="GND29" library="supply1" deviceset="GND" device=""/>
+<part name="GND30" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2620,6 +2628,14 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <instance part="C38" gate="G$1" x="457.2" y="58.42" rot="R90"/>
 <instance part="C39" gate="G$1" x="342.9" y="58.42" rot="R90"/>
 <instance part="C40" gate="G$1" x="223.52" y="58.42" rot="R90"/>
+<instance part="GND9" gate="1" x="55.88" y="35.56"/>
+<instance part="GND24" gate="1" x="175.26" y="33.02"/>
+<instance part="GND25" gate="1" x="294.64" y="33.02"/>
+<instance part="GND26" gate="1" x="408.94" y="33.02"/>
+<instance part="GND27" gate="1" x="406.4" y="-60.96"/>
+<instance part="GND28" gate="1" x="279.4" y="-66.04"/>
+<instance part="GND29" gate="1" x="157.48" y="-66.04"/>
+<instance part="GND30" gate="1" x="38.1" y="-60.96"/>
 </instances>
 <busses>
 </busses>
@@ -2965,6 +2981,78 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <segment>
 <pinref part="R47" gate="G$1" pin="1"/>
 <pinref part="GND23" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="HX1" gate="G$1" pin="IN_B-"/>
+<pinref part="HX1" gate="G$1" pin="IN_B+"/>
+<wire x1="55.88" y1="43.18" x2="55.88" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="38.1" x2="55.88" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="GND9" gate="1" pin="GND"/>
+<junction x="55.88" y="40.64"/>
+<junction x="55.88" y="43.18"/>
+</segment>
+<segment>
+<wire x1="175.26" y1="40.64" x2="175.26" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="35.56" x2="175.26" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="GND24" gate="1" pin="GND"/>
+<pinref part="HX2" gate="G$1" pin="IN_B+"/>
+<junction x="175.26" y="38.1"/>
+<pinref part="HX2" gate="G$1" pin="IN_B-"/>
+<junction x="175.26" y="40.64"/>
+</segment>
+<segment>
+<wire x1="294.64" y1="40.64" x2="294.64" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="35.56" x2="294.64" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="GND25" gate="1" pin="GND"/>
+<pinref part="HX3" gate="G$1" pin="IN_B+"/>
+<junction x="294.64" y="38.1"/>
+<pinref part="HX3" gate="G$1" pin="IN_B-"/>
+<junction x="294.64" y="40.64"/>
+</segment>
+<segment>
+<wire x1="408.94" y1="40.64" x2="408.94" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="408.94" y1="35.56" x2="408.94" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="GND26" gate="1" pin="GND"/>
+<pinref part="HX4" gate="G$1" pin="IN_B+"/>
+<junction x="408.94" y="38.1"/>
+<pinref part="HX4" gate="G$1" pin="IN_B-"/>
+<junction x="408.94" y="40.64"/>
+</segment>
+<segment>
+<wire x1="406.4" y1="-53.34" x2="406.4" y2="-55.88" width="0.1524" layer="91"/>
+<wire x1="406.4" y1="-58.42" x2="406.4" y2="-55.88" width="0.1524" layer="91"/>
+<pinref part="GND27" gate="1" pin="GND"/>
+<pinref part="HX7" gate="G$1" pin="IN_B+"/>
+<junction x="406.4" y="-55.88"/>
+<pinref part="HX7" gate="G$1" pin="IN_B-"/>
+<junction x="406.4" y="-53.34"/>
+</segment>
+<segment>
+<wire x1="279.4" y1="-58.42" x2="279.4" y2="-60.96" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="-63.5" x2="279.4" y2="-60.96" width="0.1524" layer="91"/>
+<pinref part="GND28" gate="1" pin="GND"/>
+<pinref part="HX8" gate="G$1" pin="IN_B+"/>
+<junction x="279.4" y="-60.96"/>
+<pinref part="HX8" gate="G$1" pin="IN_B-"/>
+<junction x="279.4" y="-58.42"/>
+</segment>
+<segment>
+<wire x1="157.48" y1="-58.42" x2="157.48" y2="-60.96" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="-63.5" x2="157.48" y2="-60.96" width="0.1524" layer="91"/>
+<pinref part="GND29" gate="1" pin="GND"/>
+<pinref part="HX5" gate="G$1" pin="IN_B+"/>
+<junction x="157.48" y="-60.96"/>
+<pinref part="HX5" gate="G$1" pin="IN_B-"/>
+<junction x="157.48" y="-58.42"/>
+</segment>
+<segment>
+<wire x1="38.1" y1="-53.34" x2="38.1" y2="-55.88" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="-58.42" x2="38.1" y2="-55.88" width="0.1524" layer="91"/>
+<pinref part="GND30" gate="1" pin="GND"/>
+<pinref part="HX6" gate="G$1" pin="IN_B+"/>
+<junction x="38.1" y="-55.88"/>
+<pinref part="HX6" gate="G$1" pin="IN_B-"/>
+<junction x="38.1" y="-53.34"/>
 </segment>
 </net>
 <net name="VCC" class="0">
