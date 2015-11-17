@@ -4017,14 +4017,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <pinref part="U$22" gate="G$1" pin="4"/>
 </segment>
 </net>
-<net name="1A-4" class="0">
-<segment>
-<wire x1="7.62" y1="-68.58" x2="-10.16" y2="-68.58" width="0.1524" layer="91"/>
-<pinref part="R41" gate="G$1" pin="1"/>
-<pinref part="R42" gate="G$1" pin="2"/>
-<junction x="-10.16" y="-68.58"/>
-</segment>
-</net>
 <net name="1A-5" class="0">
 <segment>
 <wire x1="375.92" y1="-68.58" x2="358.14" y2="-68.58" width="0.1524" layer="91"/>
@@ -4269,12 +4261,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </net>
 <net name="6A-" class="0">
 <segment>
-<pinref part="HX6" gate="G$1" pin="IN_A-"/>
-<pinref part="C24" gate="G$1" pin="1"/>
-<wire x1="38.1" y1="-48.26" x2="27.94" y2="-48.26" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="-48.26" x2="27.94" y2="-71.12" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <wire x1="127" y1="-83.82" x2="116.84" y2="-83.82" width="0.1524" layer="91"/>
 <pinref part="HX5" gate="G$1" pin="IN_A-"/>
 <pinref part="C20" gate="G$1" pin="1"/>
@@ -4305,14 +4291,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="375.92" y1="-78.74" x2="375.92" y2="-68.58" width="0.1524" layer="91"/>
 <junction x="396.24" y="-68.58"/>
 <pinref part="U$20" gate="G$1" pin="3"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<wire x1="7.62" y1="-78.74" x2="7.62" y2="-68.58" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="-78.74" x2="-2.54" y2="-78.74" width="0.1524" layer="91"/>
-<label x="10.16" y="-68.58" size="1.778" layer="95"/>
-<pinref part="U$18" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="CLOCK" class="0">
@@ -4464,6 +4442,25 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="248.92" y1="-83.82" x2="248.92" y2="-73.66" width="0.1524" layer="91"/>
 <junction x="269.24" y="-73.66"/>
 <pinref part="U$22" gate="G$1" pin="3"/>
+</segment>
+</net>
+<net name="5A-" class="0">
+<segment>
+<pinref part="R41" gate="G$1" pin="1"/>
+<pinref part="R42" gate="G$1" pin="2"/>
+<junction x="-10.16" y="-68.58"/>
+<pinref part="HX6" gate="G$1" pin="IN_A-"/>
+<pinref part="C24" gate="G$1" pin="1"/>
+<wire x1="38.1" y1="-48.26" x2="27.94" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="-48.26" x2="27.94" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="-68.58" x2="27.94" y2="-71.12" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="-68.58" x2="7.62" y2="-68.58" width="0.1524" layer="91"/>
+<label x="15.24" y="-71.12" size="1.778" layer="95"/>
+<wire x1="7.62" y1="-68.58" x2="27.94" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="-78.74" x2="7.62" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="-78.74" x2="-2.54" y2="-78.74" width="0.1524" layer="91"/>
+<pinref part="U$18" gate="G$1" pin="3"/>
+<junction x="7.62" y="-68.58"/>
 </segment>
 </net>
 </nets>
