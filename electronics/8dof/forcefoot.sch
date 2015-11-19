@@ -2659,9 +2659,9 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <label x="452.12" y="45.72" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="MAPLE_MINI" gate="G$1" pin="23"/>
-<wire x1="12.7" y1="132.08" x2="10.16" y2="132.08" width="0.1524" layer="91"/>
-<label x="2.54" y="132.08" size="1.778" layer="95"/>
+<pinref part="MAPLE_MINI" gate="G$1" pin="2"/>
+<wire x1="38.1" y1="119.38" x2="40.64" y2="119.38" width="0.1524" layer="91"/>
+<label x="40.64" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -3599,6 +3599,11 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="144.78" y1="15.24" x2="144.78" y2="25.4" width="0.1524" layer="91"/>
 <junction x="165.1" y="25.4"/>
 <pinref part="U$7" gate="G$1" pin="3"/>
+<wire x1="144.78" y1="25.4" x2="127" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="R21" gate="G$1" pin="1"/>
+<pinref part="R22" gate="G$1" pin="2"/>
+<junction x="127" y="25.4"/>
+<junction x="144.78" y="25.4"/>
 </segment>
 </net>
 <net name="4A-" class="0">
@@ -3615,6 +3620,12 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <junction x="398.78" y="25.4"/>
 <pinref part="U$13" gate="G$1" pin="3"/>
 </segment>
+<segment>
+<wire x1="378.46" y1="25.4" x2="360.68" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="R25" gate="G$1" pin="1"/>
+<pinref part="R26" gate="G$1" pin="2"/>
+<junction x="360.68" y="25.4"/>
+</segment>
 </net>
 <net name="3A-" class="0">
 <segment>
@@ -3629,6 +3640,12 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="264.16" y1="15.24" x2="264.16" y2="25.4" width="0.1524" layer="91"/>
 <junction x="284.48" y="25.4"/>
 <pinref part="U$10" gate="G$1" pin="3"/>
+</segment>
+<segment>
+<wire x1="264.16" y1="25.4" x2="246.38" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="R23" gate="G$1" pin="1"/>
+<pinref part="R24" gate="G$1" pin="2"/>
+<junction x="246.38" y="25.4"/>
 </segment>
 </net>
 <net name="VIN" class="0">
@@ -3776,9 +3793,9 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="78.74" y1="134.62" x2="73.66" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="MAPLE_MINI" gate="G$1" pin="2"/>
-<wire x1="38.1" y1="119.38" x2="40.64" y2="119.38" width="0.1524" layer="91"/>
-<label x="40.64" y="119.38" size="1.778" layer="95"/>
+<pinref part="MAPLE_MINI" gate="G$1" pin="3"/>
+<wire x1="38.1" y1="121.92" x2="40.64" y2="121.92" width="0.1524" layer="91"/>
+<label x="40.64" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TX" class="0">
@@ -3841,30 +3858,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <pinref part="HX4" gate="G$1" pin="BASE"/>
 <wire x1="408.94" y1="71.12" x2="406.4" y2="71.12" width="0.1524" layer="91"/>
 <label x="398.78" y="71.12" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="1A-1" class="0">
-<segment>
-<wire x1="144.78" y1="25.4" x2="127" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="R21" gate="G$1" pin="1"/>
-<pinref part="R22" gate="G$1" pin="2"/>
-<junction x="127" y="25.4"/>
-</segment>
-</net>
-<net name="1A-2" class="0">
-<segment>
-<wire x1="264.16" y1="25.4" x2="246.38" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="R23" gate="G$1" pin="1"/>
-<pinref part="R24" gate="G$1" pin="2"/>
-<junction x="246.38" y="25.4"/>
-</segment>
-</net>
-<net name="1A-3" class="0">
-<segment>
-<wire x1="378.46" y1="25.4" x2="360.68" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="R25" gate="G$1" pin="1"/>
-<pinref part="R26" gate="G$1" pin="2"/>
-<junction x="360.68" y="25.4"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -4017,32 +4010,16 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <pinref part="U$22" gate="G$1" pin="4"/>
 </segment>
 </net>
-<net name="1A-5" class="0">
-<segment>
-<wire x1="375.92" y1="-68.58" x2="358.14" y2="-68.58" width="0.1524" layer="91"/>
-<pinref part="R43" gate="G$1" pin="1"/>
-<pinref part="R44" gate="G$1" pin="2"/>
-<junction x="358.14" y="-68.58"/>
-</segment>
-</net>
-<net name="1A-6" class="0">
-<segment>
-<wire x1="248.92" y1="-73.66" x2="231.14" y2="-73.66" width="0.1524" layer="91"/>
-<pinref part="R45" gate="G$1" pin="1"/>
-<pinref part="R46" gate="G$1" pin="2"/>
-<junction x="231.14" y="-73.66"/>
-</segment>
-</net>
 <net name="SCK5" class="0">
-<segment>
-<pinref part="MAPLE_MINI" gate="G$1" pin="24"/>
-<wire x1="12.7" y1="129.54" x2="10.16" y2="129.54" width="0.1524" layer="91"/>
-<label x="2.54" y="129.54" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="HX6" gate="G$1" pin="SCK"/>
 <wire x1="78.74" y1="-45.72" x2="81.28" y2="-45.72" width="0.1524" layer="91"/>
 <label x="81.28" y="-45.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="MAPLE_MINI" gate="G$1" pin="6"/>
+<wire x1="38.1" y1="129.54" x2="40.64" y2="129.54" width="0.1524" layer="91"/>
+<label x="40.64" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DOUT5" class="0">
@@ -4292,6 +4269,12 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <junction x="396.24" y="-68.58"/>
 <pinref part="U$20" gate="G$1" pin="3"/>
 </segment>
+<segment>
+<wire x1="375.92" y1="-68.58" x2="358.14" y2="-68.58" width="0.1524" layer="91"/>
+<pinref part="R43" gate="G$1" pin="1"/>
+<pinref part="R44" gate="G$1" pin="2"/>
+<junction x="358.14" y="-68.58"/>
+</segment>
 </net>
 <net name="CLOCK" class="0">
 <segment>
@@ -4442,6 +4425,12 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="248.92" y1="-83.82" x2="248.92" y2="-73.66" width="0.1524" layer="91"/>
 <junction x="269.24" y="-73.66"/>
 <pinref part="U$22" gate="G$1" pin="3"/>
+</segment>
+<segment>
+<wire x1="248.92" y1="-73.66" x2="231.14" y2="-73.66" width="0.1524" layer="91"/>
+<pinref part="R45" gate="G$1" pin="1"/>
+<pinref part="R46" gate="G$1" pin="2"/>
+<junction x="231.14" y="-73.66"/>
 </segment>
 </net>
 <net name="5A-" class="0">
