@@ -2659,9 +2659,9 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <label x="452.12" y="45.72" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="MAPLE_MINI" gate="G$1" pin="2"/>
-<wire x1="38.1" y1="119.38" x2="40.64" y2="119.38" width="0.1524" layer="91"/>
-<label x="40.64" y="119.38" size="1.778" layer="95"/>
+<pinref part="MAPLE_MINI" gate="G$1" pin="3"/>
+<wire x1="38.1" y1="121.92" x2="40.64" y2="121.92" width="0.1524" layer="91"/>
+<label x="40.64" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -3793,9 +3793,9 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="78.74" y1="134.62" x2="73.66" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="MAPLE_MINI" gate="G$1" pin="3"/>
-<wire x1="38.1" y1="121.92" x2="40.64" y2="121.92" width="0.1524" layer="91"/>
-<label x="40.64" y="121.92" size="1.778" layer="95"/>
+<pinref part="MAPLE_MINI" gate="G$1" pin="2"/>
+<wire x1="38.1" y1="119.38" x2="40.64" y2="119.38" width="0.1524" layer="91"/>
+<label x="40.64" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TX" class="0">
