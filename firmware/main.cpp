@@ -13,7 +13,7 @@
 #define DXL_MODEL       5000
 #define DXL_BAUD        1000000
 
-#define DEBUG
+// #define DEBUG
 // #define DXL_SERIALUSB
 
 struct dxl_registers registers;
@@ -29,7 +29,7 @@ HardwareTimer timer(2);
 HX711 b1(15, 16);
 HX711 b2(18, 19);
 HX711 b3(20, 21);
-HX711 b4(22, 2);
+HX711 b4(22, 3);
 HX711 b5(6, 25);
 HX711 b6(26, 27);
 HX711 b7(28, 29);
@@ -60,7 +60,7 @@ TERMINAL_COMMAND(values, "Show balance values")
     while (!SerialUSB.available()) {
         for (int k=0; k<BALANCES; k++) {
             terminal_io()->print(balances[k]->value - tares[k]);
-            terminal_io()->print(" ");
+            terminal_io()->print("\t");
         }
         terminal_io()->println();
         delay(10);
@@ -91,9 +91,9 @@ static void putValue(int val, unsigned char *data)
 void dxl_read_data(ui8 id, ui8 addr, ui8 *values, ui8 length, ui8 *error)
 {
     *error = 0;
-
+    
     for (int k=0; k<BALANCES; k++) {
-        balances[k]->value, registers.ram.values+3*k;
+       putValue( balances[k]->value, registers.ram.values+3*k);
     }
 
     memcpy(values, ((ui8*)&registers)+addr, length);
@@ -155,7 +155,7 @@ void setup()
     delay(1);
 
     pinMode(BOARD_LED_PIN, OUTPUT);
-    digitalWrite(BOARD_LED_PIN, HIGH);
+    digitalWrite(BOARD_LED_PIN, LOW);
 
     // Dynamixel bus
 #ifndef DXL_SERIALUSB
