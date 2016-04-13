@@ -9,11 +9,11 @@
 #include "HX711.h"
 
 // Configuration of the foot
-#define DXL_ID          123
+#define DXL_ID          124
 #define DXL_MODEL       5000
 #define DXL_BAUD        1000000
 
-// #define DEBUG
+#define DEBUG
 // #define DXL_SERIALUSB
 
 struct dxl_registers registers;
@@ -22,13 +22,20 @@ struct dxl_packet packet, answer;
 /** 
  * Hardware
  */
+HardwareTimer timer(2);
 
 // HX711 chips
+//      SCK  DT
 HX711 b1(15, 16);
-HX711 b2(17, 18);
-HX711 b3(19, 20);
-HX711 b4(21, 22);
-HX711 *balances[] = {&b1, &b2, &b3, &b4};
+HX711 b2(18, 19);
+HX711 b3(20, 21);
+HX711 b4(22, 2);
+HX711 b5(6, 25);
+HX711 b6(26, 27);
+HX711 b7(28, 29);
+HX711 b8(30, 31);
+HX711 *balances[] = {&b1, &b2, &b3, &b4, &b5, &b6, &b7, &b8};
+
 #define BALANCES (sizeof(balances)/sizeof(HX711*))
 int currentBalance = 0;
 
@@ -46,14 +53,15 @@ int currentBalance = 0;
 TERMINAL_COMMAND(values, "Show balance values")
 {
 #ifdef DEBUG
+    int tares[BALANCES];
+    for (int k=0; k<BALANCES; k++) {
+        tares[k] = balances[k]->value;
+    }
     while (!SerialUSB.available()) {
-        terminal_io()->print(b1.value);
-        terminal_io()->print(" ");
-        terminal_io()->print(b2.value);
-        terminal_io()->print(" ");
-        terminal_io()->print(b3.value);
-        terminal_io()->print(" ");
-        terminal_io()->print(b4.value);
+        for (int k=0; k<BALANCES; k++) {
+            terminal_io()->print(balances[k]->value - tares[k]);
+            terminal_io()->print(" ");
+        }
         terminal_io()->println();
         delay(10);
         for (int k=0; k<BALANCES; k++) {
@@ -84,10 +92,9 @@ void dxl_read_data(ui8 id, ui8 addr, ui8 *values, ui8 length, ui8 *error)
 {
     *error = 0;
 
-    putValue(b1.value, registers.ram.values);
-    putValue(b2.value, registers.ram.values+3);
-    putValue(b3.value, registers.ram.values+6);
-    putValue(b4.value, registers.ram.values+9);
+    for (int k=0; k<BALANCES; k++) {
+        balances[k]->value, registers.ram.values+3*k;
+    }
 
     memcpy(values, ((ui8*)&registers)+addr, length);
 }
@@ -135,7 +142,18 @@ void send_packet(struct dxl_packet *packet)
  * Setup function
  */
 void setup()
-{
+{    
+    timer.pause();
+    timer.setPrescaleFactor(1);
+    timer.setCount(0);
+    timer.setOverflow(4);
+    timer.refresh();
+    timer.resume();
+
+    pinMode(8, PWM);
+    pwmWrite(8, 2); 
+    delay(1);
+
     pinMode(BOARD_LED_PIN, OUTPUT);
     digitalWrite(BOARD_LED_PIN, HIGH);
 
