@@ -51,15 +51,7 @@ struct dxl_registers
         unsigned short movingSpeed;
         unsigned short torqueLimit;
 
-        unsigned char values[12];
-
-        /*
-        unsigned short presentPosition;
-        unsigned short presentSpeed;
-        unsigned short presentLoad;
-        unsigned char presentVoltage;
-        unsigned char presentTemperature;
-        */
+        unsigned char values[24];
 
         unsigned char registeredInstruction;
         unsigned char _dummy3;

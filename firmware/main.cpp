@@ -10,10 +10,10 @@
 
 // Configuration of the foot
 #define DXL_ID          124
-#define DXL_MODEL       5000
+#define DXL_MODEL       5008
 #define DXL_BAUD        1000000
 
-// #define DEBUG
+#define DEBUG
 // #define DXL_SERIALUSB
 
 struct dxl_registers registers;
@@ -79,6 +79,8 @@ bool dxl_check_id(ui8 id)
 void dxl_write_data(ui8 id, ui8 addr, ui8 *values, ui8 length)
 {
     memcpy(((ui8 *)(&registers))+addr, values, length);
+
+    digitalWrite(BOARD_LED_PIN, registers.ram.led);
 }
 
 static void putValue(int val, unsigned char *data)
@@ -91,9 +93,9 @@ static void putValue(int val, unsigned char *data)
 void dxl_read_data(ui8 id, ui8 addr, ui8 *values, ui8 length, ui8 *error)
 {
     *error = 0;
-    
+   
     for (int k=0; k<BALANCES; k++) {
-       putValue( balances[k]->value, registers.ram.values+3*k);
+       putValue(balances[k]->value, registers.ram.values+3*k);
     }
 
     memcpy(values, ((ui8*)&registers)+addr, length);
