@@ -85,9 +85,9 @@ void dxl_write_data(ui8 id, ui8 addr, ui8 *values, ui8 length)
 
 static void putValue(int val, unsigned char *data)
 {
-    data[0] = (val >> 16)&0xff;
+    data[0] = (val >> 0)&0xff;
     data[1] = (val >> 8)&0xff;
-    data[2] = (val >> 0)&0xff;
+    data[2] = (val >> 16)&0xff;
 }
 
 void dxl_read_data(ui8 id, ui8 addr, ui8 *values, ui8 length, ui8 *error)
