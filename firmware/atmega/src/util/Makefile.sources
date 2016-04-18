@@ -1,0 +1,1 @@
+SOURCES := pgmspace.c out.c
