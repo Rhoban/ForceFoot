@@ -2361,8 +2361,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R18" library="rhoban" deviceset="RESISTANCE" device="-R0805" value="3k"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
-<part name="R14" library="rhoban" deviceset="RESISTANCE" device="-R0805" value="3k"/>
-<part name="R15" library="rhoban" deviceset="RESISTANCE" device="-R0805" value="3k"/>
+<part name="R14" library="rhoban" deviceset="RESISTANCE" device="-R0805" value="22"/>
+<part name="R15" library="rhoban" deviceset="RESISTANCE" device="-R0805" value="22"/>
 <part name="R19" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="3K"/>
 <part name="R20" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="3K"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
@@ -2505,9 +2505,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="452.12" y="48.26" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="198.12" y1="160.02" x2="200.66" y2="160.02" width="0.1524" layer="91"/>
-<label x="200.66" y="160.02" size="1.778" layer="95"/>
-<pinref part="U2" gate="G$1" pin="ADC6"/>
+<pinref part="U2" gate="G$1" pin="PB0(ICP)"/>
+<wire x1="198.12" y1="129.54" x2="203.2" y2="129.54" width="0.1524" layer="91"/>
+<label x="203.2" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DOUT4" class="0">
@@ -2517,9 +2517,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="452.12" y="45.72" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="198.12" y1="157.48" x2="200.66" y2="157.48" width="0.1524" layer="91"/>
-<label x="200.66" y="157.48" size="1.778" layer="95"/>
-<pinref part="U2" gate="G$1" pin="ADC7"/>
+<pinref part="U2" gate="G$1" pin="PB1(OC1A)"/>
+<wire x1="198.12" y1="127" x2="203.2" y2="127" width="0.1524" layer="91"/>
+<label x="203.2" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
