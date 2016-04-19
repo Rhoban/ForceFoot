@@ -13,8 +13,10 @@ void dir_set(int en)
         uart_enable_receiver(0);
     }
 
+    _delay_us(20);
     if (en) PORTD |= _BV(PD2);
     else PORTD &= ~_BV(PD2);
+    _delay_us(20);
 
     if (!en) {
         // Enables the receiver

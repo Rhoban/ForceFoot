@@ -4,6 +4,8 @@
 #include <uart/dir.h>
 #include "hx711.h"
 
+int32_t hx711_values[4];
+
 void hx711_clock_set(int index, int en)
 {
     switch (index) {
@@ -16,8 +18,8 @@ void hx711_clock_set(int index, int en)
             if (!en) PORTC &= ~_BV(PC2);
             break;
         case 2:
-            if (en) PORTD |= _BV(PD2);
-            if (!en) PORTD &= ~_BV(PD2);
+            if (en) PORTD |= _BV(PD3);
+            if (!en) PORTD &= ~_BV(PD3);
             break;
         case 3:
             if (en) PORTB |= _BV(PB0);
@@ -87,6 +89,17 @@ int32_t hx711_sample(int index)
     }
 }
 
+static int current = 0;
+void hx711_tick()
+{
+    if (hx711_available(current)) {
+        hx711_values[current] = hx711_sample(current);
+    }
+
+    current++;
+    if (current >= 4) current = 0;
+}
+
 void hx711_init()
 {
     hx711_clock_set(0, 0);
@@ -96,15 +109,18 @@ void hx711_init()
     DDRC |= _BV(PC0) | _BV(PC2);
     DDRD |= _BV(PD3);
     DDRB |= _BV(PB0);
-   
+ 
+    /*
     // XXX: Debug: print all the values
     dir_set(1);
+    _delay_ms(100);
     while (1) {
         int k;
         for (k=0; k<4; k++) {
             while (!hx711_available(k));
-            printf("%ld ", hx711_sample(0));
+            printf("%ld\t", hx711_sample(k));
         }
         printf("\r\n");
     }
+    */
 }

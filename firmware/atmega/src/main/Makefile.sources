@@ -1,1 +1,1 @@
-SOURCES := main.c hx711.c
+SOURCES := main.c hx711.c led.c

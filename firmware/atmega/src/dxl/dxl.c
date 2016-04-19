@@ -8,7 +8,11 @@
 #include <dxl/dxl.h>
 #include <dxl/types.h>
 #include <dxl/byte_queue.h>
+#include <util/delay.h>
 #include <avr/io.h>
+#include <uart/uart.h>
+#include <uart/dir.h>
+#include <main/led.h>
 
 // Protocol definition
 #define DXL_PING        0x01
@@ -41,7 +45,7 @@ void dxl_process_command();
 ui8 dxl_compute_checksum();
 void dxl_push_answer_instruction();
 void dxl_flush_answer();
-void dxl_send_byte(ui8 byte);
+void uart_putc(ui8 byte);
 void dxl_push_byte(ui8 b);
 
 // The current command (being read or written)
@@ -75,44 +79,38 @@ ui8 dxl_compute_checksum() {
     return (ui8) sum;
 }
 
-// Sends a byte, if the bufferization is enabled, it will be directly output,
-// else, the byte will be stored in the answers buffer
-void dxl_send_byte(ui8 byte) {
-#ifdef DXL_BUFFERIZE
-    answers[answers_size++] = byte;
-#else
-    dxl_send_bytes(&byte, 1);
-#endif
-}
 
 // Sends the answer
 void dxl_push_answer_instruction() {
     int i;
 
+    dir_set(1);
+
 #ifdef DXL_BUFFERIZE
     answers_size = 0;
 #endif
 
-    dxl_send_byte(0xFF);
-    dxl_send_byte(0xFF);
-    dxl_send_byte((ui8)current_command.id);
-    dxl_send_byte((ui8)(current_command.parameter_nb+2));
-    dxl_send_byte((ui8)current_command.error);
+    uart_putc(0xFF);
+    uart_putc(0xFF);
+    uart_putc((ui8)current_command.id);
+    uart_putc((ui8)(current_command.parameter_nb+2));
+    uart_putc((ui8)current_command.error);
 
     for (i=0; i<current_command.parameter_nb; i++) {
-        dxl_send_byte(current_command.parameters[i]);
+        uart_putc(current_command.parameters[i]);
     }
 
-    dxl_send_byte(dxl_compute_checksum());
+    uart_putc(dxl_compute_checksum());
 	
     dxl_state = 0;
+    dir_set(0);
 }
 
 // Flushes the answer if there is bufferization
 void dxl_flush_answer() {
 #ifdef DXL_BUFFERIZE
     if (answers_size > 0) {
-        dxl_send_bytes(answers, answers_size);
+        uart_putcs(answers, answers_size);
         answers_size=0;
     }
 #endif
@@ -181,6 +179,7 @@ void dxl_push_byte(ui8 b) {
             }
             break;
         case 2:
+            led_set(1);
             current_command.id = b;
             break;
         case 3:
