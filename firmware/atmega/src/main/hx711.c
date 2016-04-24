@@ -106,9 +106,16 @@ void hx711_init()
     hx711_clock_set(1, 0);
     hx711_clock_set(2, 0);
     hx711_clock_set(3, 0);
+
+    // Clocks as outputs
     DDRC |= _BV(PC0) | _BV(PC2);
     DDRD |= _BV(PD3);
     DDRB |= _BV(PB0);
+
+    // Enabling pull up on inputs
+    PORTC |= _BV(PC1) | _BV(PC3);
+    PORTD |= _BV(PD4);
+    PORTB |= _BV(PB1);
  
     /*
     // XXX: Debug: print all the values
