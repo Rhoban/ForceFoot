@@ -60,10 +60,10 @@ int hx711_available(int index)
 int hx711_read_bit(int index)
 {
     hx711_clock_set(index, 1);
-    _delay_us(5);
+    _delay_us(1);
     int result = hx711_read(index);
     hx711_clock_set(index, 0);
-    _delay_us(5);
+    _delay_us(1);
     return result;
 }
 
@@ -116,6 +116,11 @@ void hx711_init()
     PORTC |= _BV(PC1) | _BV(PC3);
     PORTD |= _BV(PD4);
     PORTB |= _BV(PB1);
+    
+    int k;
+    for (k=0; k<4; k++) {
+        hx711_values[k] = 0;
+    }
  
     /*
     // XXX: Debug: print all the values
