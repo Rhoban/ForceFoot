@@ -42,6 +42,11 @@ sign of the measured value.
 
 Here's a list of components you'll need to build the board with example links for buying them
 
+### Controller
+
+* ATmega328p
+* 16 Mhz HC49US quartz
+
 ### Resistors (all are 0805 package)
 
 * 20 ohms
@@ -53,6 +58,7 @@ Here's a list of components you'll need to build the board with example links fo
 
 * 1uF
 * 0.2uF
+* 22 nF
 
 ### Polar capacitor, for decoupling
 
@@ -62,11 +68,10 @@ Here's a list of components you'll need to build the board with example links fo
 ### Power 
 
 You can buy a 7805, but we recommend using a switching instead, like the TRACO TSR 1-2450
-to avoid intensive heating
+to avoid intensive heating.
 
 ### ICs
 
-You'll need a Maple Mini board and its sockets (you can also solder it directly on the board)
 The amps are HX711, a really widespread chip that is use in weight scales
 Small transistors are PNP S8550 (SOT-23 package)
 
