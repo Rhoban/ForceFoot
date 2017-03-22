@@ -1,3 +1,3 @@
-Lib*
-build
-**.swp
+**.o
+**.elf
+**.bin
