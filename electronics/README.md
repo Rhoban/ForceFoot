@@ -75,4 +75,20 @@ to avoid intensive heating.
 The amps are HX711, a really widespread chip that is use in weight scales
 Small transistors are PNP S8550 (SOT-23 package)
 
+### Connectors for jauges
+
+You can use any 1.5mm pitch connector you like. We recommend the
+[JST-ZH 4P](https://fr.aliexpress.com/item/40-SETS-Mini-Micro-ZH-1-5-4-Pin-JST-Connector-with-Wires-Cables/32612842708.html?spm=2114.13010608.0.0.3bLgYh).
+
+Note that the order of the pins, from left to right are:
+
+    GND VCC A B
+
+Which corresponds typically on cells to:
+
+    BLACK RED WHITE GREEN
+
+If you use only half bridge, do not connect the 3rd (white) pin, and solder the two
+resistors that can apply VCC/2 on it.
+
 [Continue through the docs with the firmware »](../firmware)
