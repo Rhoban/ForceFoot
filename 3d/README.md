@@ -20,21 +20,20 @@ The first thing you'll need is to get gauges fitting your needs, we used 5kg
 nominal, which is about the maximum weight that they should have to hold
 separately.
 
-You can buy low-cost ones from [AliExpress](http://www.aliexpress.com/wholesale?SearchText=strain+gauge+5kg),
+You can buy low-cost ones from AliExpress,
 eBay or any general purpose market place.
 
 There is different gauges out there, we recommend suing
 differential ones (featuring wheatstone bridge arrangement, 4 wires). 
 
-## Gauges of this design
+## Cells of this design
 
-The gauges here are 5kg nominal, with M4 on one side and M5 on the other. The
-cleats are fixed on the M4 side, and the M5 is used to fix the gauges to the foot
-part.
+The cells in this design are [40 kg nominal, made of steel with 2 M4 holes with
+27mm spacing](https://www.aliexpress.com/item/2-pc-40kg-Portable-weighing-sensor-weight-sensor-micro-bridge/32717418536.html).
 
 ## Foot part
 
-The `foot.ipt` represents the 3D-printed part for the foot, we recommend adjusting
+The `foot.ipt` represents the foot plate, we recommend adjusting
 the holes to fix it to the rest of your robot.
 
 When printing it, you may fill this part with a reasonable amount of material.
