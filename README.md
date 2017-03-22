@@ -1,7 +1,10 @@
 # Force foot
 
+**Note that this is the V2 version, you can have a look at the V1 branch for
+the previous release**
+
 Here is a design of a robot foot using strain gauges as force sensors.
-It was used by the Rhoban Football Club (France) during the RoboCup 2015.
+It was used by the Rhoban Football Club (France) during the RoboCup 2016.
 
 If you have any question feel free to contact team@rhoban.com to ask it,
 or open an issue on this repository.
