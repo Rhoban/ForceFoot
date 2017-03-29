@@ -1,6 +1,6 @@
 # Force foot
 
-**Note that this is the V2 version, you can have a look at the V1 branch for
+**Note that this is the v2 version, you can have a look at the v1 branch for
 the previous release**
 
 Here is a design of a robot foot using strain gauges as force sensors.
