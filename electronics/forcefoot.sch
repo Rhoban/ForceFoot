@@ -2361,8 +2361,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R18" library="rhoban" deviceset="RESISTANCE" device="-R0805" value="3k"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
-<part name="R14" library="rhoban" deviceset="RESISTANCE" device="-R0805" value="3k"/>
-<part name="R15" library="rhoban" deviceset="RESISTANCE" device="-R0805" value="3k"/>
+<part name="R14" library="rhoban" deviceset="RESISTANCE" device="-R0805" value="22"/>
+<part name="R15" library="rhoban" deviceset="RESISTANCE" device="-R0805" value="22"/>
 <part name="R19" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="3K"/>
 <part name="R20" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="3K"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
