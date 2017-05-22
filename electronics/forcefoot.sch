@@ -2901,14 +2901,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U2" gate="G$1" pin="AREF"/>
 </segment>
 <segment>
-<pinref part="U$28" gate="G$1" pin="2"/>
-<wire x1="190.5" y1="106.68" x2="193.04" y2="106.68" width="0.1524" layer="91"/>
-<label x="193.04" y="106.68" size="1.778" layer="95"/>
-</segment>
-<segment>
 <wire x1="144.78" y1="187.96" x2="144.78" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="R27" gate="G$1" pin="2"/>
 <label x="144.78" y="187.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$28" gate="G$1" pin="2"/>
+<wire x1="190.5" y1="106.68" x2="193.04" y2="106.68" width="0.1524" layer="91"/>
+<label x="193.04" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="1BASE" class="0">
