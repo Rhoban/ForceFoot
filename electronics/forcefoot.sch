@@ -3212,6 +3212,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="144.78" y1="15.24" x2="144.78" y2="25.4" width="0.1524" layer="91"/>
 <junction x="165.1" y="25.4"/>
 </segment>
+<segment>
+<wire x1="144.78" y1="25.4" x2="127" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="R21" gate="G$1" pin="1"/>
+<pinref part="R22" gate="G$1" pin="2"/>
+<junction x="127" y="25.4"/>
+</segment>
 </net>
 <net name="4A-" class="0">
 <segment>
@@ -3227,6 +3233,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="378.46" y1="15.24" x2="378.46" y2="25.4" width="0.1524" layer="91"/>
 <junction x="398.78" y="25.4"/>
 </segment>
+<segment>
+<wire x1="378.46" y1="25.4" x2="360.68" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="R25" gate="G$1" pin="1"/>
+<pinref part="R26" gate="G$1" pin="2"/>
+<junction x="360.68" y="25.4"/>
+</segment>
 </net>
 <net name="3A-" class="0">
 <segment>
@@ -3241,6 +3253,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="284.48" y1="45.72" x2="284.48" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="15.24" x2="264.16" y2="25.4" width="0.1524" layer="91"/>
 <junction x="284.48" y="25.4"/>
+</segment>
+<segment>
+<wire x1="264.16" y1="25.4" x2="246.38" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="R23" gate="G$1" pin="1"/>
+<pinref part="R24" gate="G$1" pin="2"/>
+<junction x="246.38" y="25.4"/>
 </segment>
 </net>
 <net name="VIN" class="0">
@@ -3453,30 +3471,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="HX4" gate="G$1" pin="BASE"/>
 <wire x1="408.94" y1="71.12" x2="406.4" y2="71.12" width="0.1524" layer="91"/>
 <label x="398.78" y="71.12" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="1A-1" class="0">
-<segment>
-<wire x1="144.78" y1="25.4" x2="127" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="R21" gate="G$1" pin="1"/>
-<pinref part="R22" gate="G$1" pin="2"/>
-<junction x="127" y="25.4"/>
-</segment>
-</net>
-<net name="1A-2" class="0">
-<segment>
-<wire x1="264.16" y1="25.4" x2="246.38" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="R23" gate="G$1" pin="1"/>
-<pinref part="R24" gate="G$1" pin="2"/>
-<junction x="246.38" y="25.4"/>
-</segment>
-</net>
-<net name="1A-3" class="0">
-<segment>
-<wire x1="378.46" y1="25.4" x2="360.68" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="R25" gate="G$1" pin="1"/>
-<pinref part="R26" gate="G$1" pin="2"/>
-<junction x="360.68" y="25.4"/>
 </segment>
 </net>
 <net name="RESET" class="0">
