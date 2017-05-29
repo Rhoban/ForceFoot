@@ -28,8 +28,11 @@ differential ones (featuring wheatstone bridge arrangement, 4 wires).
 
 ## Cells of this design
 
-The cells in this design are [40 kg nominal, made of steel with 2 M4 holes with
-27mm spacing](https://www.aliexpress.com/item/2-pc-40kg-Portable-weighing-sensor-weight-sensor-micro-bridge/32717418536.html).
+The cells in this design are 40 kg nominal, made of steel with 2 M4 holes with
+27mm spacing
+
+* [eBay](http://www.ebay.fr/itm/40kg-Aluminium-Alloy-Portable-Rectangle-Kitchen-Scale-Weight-Sensor-Load-Cell-/311507964552?hash=item4887525288:g:QxYAAOSwY3BZEuAr)
+* [AliExpress](https://www.aliexpress.com/item/10pcs-40kg-weight-sensor-miniature-full-bridge-sensor-weighing-force-sensor-freeshipping/32498871281.html?spm=2114.01010208.3.126.DWqRNl&ws_ab_test=searchweb0_0,searchweb201602_5_10152_10065_10151_10068_5010015_10136_10137_10157_10060_10138_10155_10062_10156_437_10154_10056_10055_10054_10059_303_100031_10099_10103_10102_10101_10096_10147_10052_10053_10107_10050_10142_10051_5020016_10084_10083_10080_10082_10081_10177_10110_519_10111_10112_10113_10114_10180_10182_10185_10184_10078_10079_10073_10186_10123_142,searchweb201603_2,ppcSwitch_5&btsid=9c118a6d-5c25-40a6-ae97-44e3d203d671&algo_expid=1c5b80d4-c289-412d-ace7-c203356e1b79-17&algo_pvid=1c5b80d4-c289-412d-ace7-c203356e1b79)
 
 ## Foot part
 
