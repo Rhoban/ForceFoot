@@ -43,7 +43,7 @@ Each gauge value is a signed 24 bit value (least significant byte first), result
 of 3 bytes. Thus, the values of the four gauges are 12 bytes. These bytes can be read at the 
 present position address of the dynamixel registers (``0x24`` / 36).
 
-0x24-0x26 | 0x27-0x29 | 0x2a-0x2c | 0x2d-0x2f
+0x24 &rarr; 0x26 | 0x27 &rarr; 0x29 | 0x2a &rarr; 0x2c | 0x2d &rarr; 0x2f
 -------|--------|-------|--------
 Jauge 1 | Jauge 2 | Jauge 3 | Jauge 4
 
