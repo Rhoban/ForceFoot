@@ -43,7 +43,7 @@ Each gauge value is a signed 24 bit value (least significant byte first), result
 of 3 bytes. Thus, the values of the four gauges are 12 bytes. These bytes can be read at the 
 present position address of the dynamixel registers (``0x24`` / 36).
 
-0x24 | 0x27 | 0x2a | 0x2d 
+0x24-0x26 | 0x27-0x29 | 0x2a-0x2c | 0x2d-0x2f
 -------|--------|-------|--------
 Jauge 1 | Jauge 2 | Jauge 3 | Jauge 4
 
@@ -53,7 +53,8 @@ Here is an example of C code to read the values from one jauge:
 #include <stdint.h>
 
 // The bytes are here LSB, the same order that it appear in the dynamixel
-// (For instance, jauge 1 values are 0x24 for b0, 0x25 for b1 and 0x26 for b2)
+// (For instance, jauge 1 values are at dynamixel addresses 0x24 for b0, 0x25 
+// for b1 and 0x26 for b2)
 int32_t decode24bits(uint8_t b0, uint8_t b1, uint8_t b2)
 {
     int32_t result = (
