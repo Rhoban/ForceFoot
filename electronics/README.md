@@ -73,7 +73,8 @@ to avoid intensive heating.
 ### ICs
 
 The amps are HX711, a really widespread chip that is use in weight scales
-Small transistors are PNP S8550 (SOT-23 package)
+This chips regulates the reference voltage for the amp, using an external
+PNP transistor (SOT-23 package). S8550 or BC857B,215 can be used.
 
 ### Connectors for jauges
 
