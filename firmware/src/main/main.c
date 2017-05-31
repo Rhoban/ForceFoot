@@ -15,8 +15,9 @@
 #include "hx711.h"
 #include "led.h"
 
-#define DXL_MODEL  5004
-#define DXL_ID     123
+#define DXL_MODEL               5004
+#define DXL_ID                  124
+// #define DXL_RETURN_DELAY        250
 
 // Dynamixel registers
 struct dxl_registers registers;
@@ -44,6 +45,10 @@ static void putValue(int32_t val, unsigned char *data)
 void dxl_read_data(ui8 id, ui8 addr, ui8 *values, ui8 length, ui8 *error)
 {
     *error = 0;
+
+#ifdef DXL_RETURN_DELAY
+    _delay_us(DXL_RETURN_DELAY);
+#endif
 
     int k;
     unsigned char *rvalues = &registers.ram.presentPosition;
