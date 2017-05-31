@@ -49,7 +49,7 @@ Here's a list of components you'll need to build the board with example links fo
 
 ### Resistors (all are 0805 package)
 
-* 20 ohms
+* 22 ohms
 * 3 Kohms
 * 8.2 Kohms
 * 20 Kohms
