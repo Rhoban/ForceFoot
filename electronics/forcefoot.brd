@@ -168,6 +168,10 @@
 <rectangle x1="53.2976" y1="36.28371875" x2="59.9570125" y2="43.37680625" layer="42"/>
 <rectangle x1="25.912528125" y1="-0.308484375" x2="32.559784375" y2="6.769321875" layer="41"/>
 <rectangle x1="25.8976" y1="-0.31628125" x2="32.5570125" y2="6.77680625" layer="42"/>
+<wire x1="43.6" y1="42.4" x2="43.6" y2="43.1" width="0.4064" layer="25"/>
+<wire x1="43.6" y1="43.1" x2="45.6" y2="43.1" width="0.4064" layer="25"/>
+<wire x1="45.6" y1="43.1" x2="45.6" y2="42.4" width="0.4064" layer="25"/>
+<wire x1="45.6" y1="42.4" x2="43.6" y2="42.4" width="0.4064" layer="25"/>
 </plain>
 <libraries>
 <library name="rhoban">
@@ -833,13 +837,13 @@ design rules under a new name.</description>
 <element name="C17" library="rhoban" package="C0603" value="22" x="21.8" y="27.2" rot="R90"/>
 <element name="C18" library="rhoban" package="C0603" value="22" x="21.8" y="23.8" rot="R270"/>
 <element name="R27" library="SparkFun-Passives" package="0805" value="10k" x="38.2" y="27.2" rot="R90"/>
-<element name="U$28" library="rhoban" package="CONNEC_2X03" value="CONNEC_2X03" x="47.2" y="38.6" rot="R180"/>
-<element name="U$5" library="rhoban" package="TRACOPOWER" value="REG_5V" x="51.8" y="33.6" rot="R270"/>
-<element name="U$8" library="rhoban" package="CONNEC_485" value="CONNEC_1X04_485" x="34.6" y="43" rot="R180"/>
+<element name="ISP" library="rhoban" package="CONNEC_2X03" value="CONNEC_2X03" x="47.2" y="38.6" rot="R180"/>
+<element name="REG" library="rhoban" package="TRACOPOWER" value="REG_5V" x="51.8" y="33.6" rot="R270"/>
+<element name="DXL" library="rhoban" package="CONNEC_485" value="CONNEC_1X04_485" x="34.6" y="43" rot="R180"/>
 <element name="U$11" library="SparkFun-Electromechanical" package="STAND-OFF" value="" x="3.29684375" y="40.111128125"/>
 <element name="U$14" library="SparkFun-Electromechanical" package="STAND-OFF" value="" x="56.49684375" y="39.711128125"/>
 <element name="U$16" library="SparkFun-Electromechanical" package="STAND-OFF" value="" x="29.09684375" y="3.111128125"/>
-<element name="U$17" library="rhoban" package="GY-85" value="GY-85" x="23" y="34.6" rot="R270"/>
+<element name="IMU" library="rhoban" package="GY-85" value="GY-85" x="23" y="34.6" rot="R270"/>
 <element name="R28" library="SparkFun-Passives" package="0805" value="3K" x="40.6" y="32.2"/>
 <element name="R29" library="SparkFun-Passives" package="0805" value="3K" x="40.6" y="30.8"/>
 <element name="HX1" library="rhoban" package="SO16" value="HX711SO16" x="9" y="12.6" rot="R90"/>
@@ -914,10 +918,10 @@ design rules under a new name.</description>
 <contactref element="HX4" pad="5"/>
 <contactref element="C17" pad="1"/>
 <contactref element="C18" pad="1"/>
-<contactref element="U$28" pad="6"/>
-<contactref element="U$5" pad="P$2"/>
-<contactref element="U$8" pad="GND"/>
-<contactref element="U$17" pad="GND"/>
+<contactref element="ISP" pad="6"/>
+<contactref element="REG" pad="P$2"/>
+<contactref element="DXL" pad="GND"/>
+<contactref element="IMU" pad="GND"/>
 <contactref element="HX1" pad="14"/>
 <contactref element="HX1" pad="5"/>
 <contactref element="C3" pad="1"/>
@@ -1150,8 +1154,8 @@ design rules under a new name.</description>
 <contactref element="R2" pad="2"/>
 <contactref element="U$2" pad="+"/>
 <contactref element="U$4" pad="+"/>
-<contactref element="U$5" pad="P$3"/>
-<contactref element="U$17" pad="VCC_IN"/>
+<contactref element="REG" pad="P$3"/>
+<contactref element="IMU" pad="VCC_IN"/>
 <contactref element="HX1" pad="1"/>
 <contactref element="HX1" pad="16"/>
 <contactref element="HX1" pad="15"/>
@@ -1159,7 +1163,7 @@ design rules under a new name.</description>
 <contactref element="U2" pad="6"/>
 <contactref element="U2" pad="20"/>
 <contactref element="R27" pad="2"/>
-<contactref element="U$28" pad="2"/>
+<contactref element="ISP" pad="2"/>
 <wire x1="8.7" y1="30.2" x2="5.7" y2="33.2" width="0.254" layer="1"/>
 <wire x1="9.8" y1="30.2" x2="8.7" y2="30.2" width="0.254" layer="1"/>
 <wire x1="5.7" y1="33.2" x2="5.65" y2="33.2" width="0.254" layer="1"/>
@@ -1684,8 +1688,8 @@ design rules under a new name.</description>
 <wire x1="42.7" y1="1.8" x2="42.82" y2="1.8" width="0.254" layer="1"/>
 </signal>
 <signal name="VIN">
-<contactref element="U$5" pad="P$1"/>
-<contactref element="U$8" pad="V+"/>
+<contactref element="REG" pad="P$1"/>
+<contactref element="DXL" pad="V+"/>
 <wire x1="46.5" y1="37.4" x2="53.8" y2="30.1" width="0.254" layer="16"/>
 <wire x1="31.3" y1="37.4" x2="46.5" y2="37.4" width="0.254" layer="16"/>
 <wire x1="29.6" y1="39.1" x2="31.3" y2="37.4" width="0.254" layer="16"/>
@@ -1693,7 +1697,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="RS+">
 <contactref element="R14" pad="1"/>
-<contactref element="U$8" pad="D+"/>
+<contactref element="DXL" pad="D+"/>
 <wire x1="15.2" y1="28.2" x2="14.2" y2="27.2" width="0.254" layer="1"/>
 <wire x1="15.2" y1="32.3" x2="15.2" y2="28.2" width="0.254" layer="1"/>
 <wire x1="14.9" y1="32.6" x2="15.2" y2="32.3" width="0.254" layer="1"/>
@@ -1708,7 +1712,7 @@ design rules under a new name.</description>
 <contactref element="R18" pad="2"/>
 <contactref element="R2" pad="1"/>
 <contactref element="R15" pad="1"/>
-<contactref element="U$8" pad="D-"/>
+<contactref element="DXL" pad="D-"/>
 <wire x1="10.05" y1="33.2" x2="7.55" y2="33.2" width="0.254" layer="1"/>
 <wire x1="11.4" y1="32.1" x2="12.25" y2="31.25" width="0.254" layer="1"/>
 <wire x1="12.25" y1="31.25" x2="14.1" y2="29.4" width="0.254" layer="1"/>
@@ -1940,7 +1944,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="RESET">
 <contactref element="R27" pad="1"/>
-<contactref element="U$28" pad="5"/>
+<contactref element="ISP" pad="5"/>
 <contactref element="U2" pad="29"/>
 <wire x1="41.7" y1="29.8" x2="38.2" y2="26.3" width="0.254" layer="1"/>
 <wire x1="43.4" y1="29.8" x2="41.7" y2="29.8" width="0.254" layer="1"/>
@@ -1959,7 +1963,7 @@ design rules under a new name.</description>
 <wire x1="42" y1="41.1" x2="42.12" y2="41.14" width="0.254" layer="1"/>
 </signal>
 <signal name="SCK">
-<contactref element="U$28" pad="3"/>
+<contactref element="ISP" pad="3"/>
 <contactref element="U2" pad="17"/>
 <wire x1="34.8" y1="22.4" x2="34.5" y2="22.7" width="0.254" layer="1"/>
 <wire x1="34.8" y1="19.2" x2="34.8" y2="22.4" width="0.254" layer="1"/>
@@ -1975,7 +1979,7 @@ design rules under a new name.</description>
 <via x="45.7" y="22.8" extent="1-16" drill="0.6096"/>
 </signal>
 <signal name="MOSI">
-<contactref element="U$28" pad="4"/>
+<contactref element="ISP" pad="4"/>
 <contactref element="U2" pad="15"/>
 <wire x1="32.1" y1="21.1" x2="32.2" y2="21.2" width="0.254" layer="1"/>
 <wire x1="32.1" y1="17.8" x2="32.1" y2="21.1" width="0.254" layer="1"/>
@@ -2025,7 +2029,7 @@ design rules under a new name.</description>
 <via x="23.8" y="22.6" extent="1-16" drill="0.6096"/>
 </signal>
 <signal name="MISO">
-<contactref element="U$28" pad="1"/>
+<contactref element="ISP" pad="1"/>
 <contactref element="U2" pad="16"/>
 <wire x1="33.3" y1="20.9" x2="33" y2="21.2" width="0.254" layer="1"/>
 <wire x1="33.3" y1="17.7" x2="33.3" y2="20.9" width="0.254" layer="1"/>
@@ -2040,7 +2044,7 @@ design rules under a new name.</description>
 <via x="33.3" y="17.7" extent="1-16" drill="0.6096"/>
 </signal>
 <signal name="IMU_SCL">
-<contactref element="U$17" pad="SCL"/>
+<contactref element="IMU" pad="SCL"/>
 <contactref element="R28" pad="1"/>
 <contactref element="U2" pad="28"/>
 <wire x1="35.6" y1="32.2" x2="39.7" y2="32.2" width="0.254" layer="1"/>
@@ -2057,7 +2061,7 @@ design rules under a new name.</description>
 <via x="30.5" y="31.4" extent="1-16" drill="0.6096"/>
 </signal>
 <signal name="IMU_SDA">
-<contactref element="U$17" pad="SDA"/>
+<contactref element="IMU" pad="SDA"/>
 <contactref element="R29" pad="1"/>
 <contactref element="U2" pad="27"/>
 <wire x1="34.4" y1="30.8" x2="39.7" y2="30.8" width="0.254" layer="1"/>
@@ -2072,7 +2076,7 @@ design rules under a new name.</description>
 <wire x1="30.7" y1="34.5" x2="30.62" y2="34.6" width="0.254" layer="1"/>
 </signal>
 <signal name="3.3">
-<contactref element="U$17" pad="3.3"/>
+<contactref element="IMU" pad="3.3"/>
 <contactref element="R29" pad="2"/>
 <contactref element="R28" pad="2"/>
 <wire x1="41.5" y1="32.2" x2="41.5" y2="30.8" width="0.254" layer="1"/>
