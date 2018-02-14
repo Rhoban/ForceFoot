@@ -58,7 +58,7 @@ Here's a list of components you'll need to build the board with example links fo
 
 * 1uF
 * 0.2uF
-* 22 nF
+* 22 pF
 
 ### Polar capacitor, for decoupling
 
