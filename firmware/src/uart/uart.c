@@ -121,7 +121,7 @@ LICENSE:
  #define UART1_CONTROL  UCSR1B
  #define UART1_DATA     UDR1
  #define UART1_UDRIE    UDRIE1
-#elif defined(__AVR_ATmega64__) || defined(__AVR_ATmega128__) || defined(__AVR_ATmega1284P__)
+#elif defined(__AVR_ATmega64__) || defined(__AVR_ATmega128__) || defined(__AVR_ATmega1284P__) || defined(__AVR_ATmega328PB__)
  /* ATmega with two USART */
  #define ATMEGA_USART0
  #define ATMEGA_USART1
@@ -189,7 +189,7 @@ LICENSE:
   #define UART0_CONTROL  UCSR0B
   #define UART0_DATA     UDR0
   #define UART0_UDRIE    UDRIE0
-#elif defined(__AVR_ATmega2560__) || defined(__AVR_ATmega2561__) || defined(__AVR_ATmega1280__)  || defined(__AVR_ATmega1281__) || defined(__AVR_ATmega640__)
+#elif defined(__AVR_ATmega2560__) || defined(__AVR_ATmega2561__) || defined(__AVR_ATmega1280__)  || defined(__AVR_ATmega1281__) || defined(__AVR_ATmega640__) || defined(__AVR_ATmega328PB__)
 /* ATmega with two USART */
   #define ATMEGA_USART0
   #define ATMEGA_USART1
@@ -280,8 +280,7 @@ Purpose:  called when the UART has received a character
     unsigned char data;
     unsigned char usr;
     unsigned char lastRxError;
- 
- 
+  
     /* read UART status register and UART data register */ 
     usr  = UART0_STATUS;
     data = UART0_DATA;
@@ -609,7 +608,6 @@ Purpose:  called when the UART1 has received a character
     unsigned char data;
     unsigned char usr;
     unsigned char lastRxError;
- 
  
     /* read UART status register and UART data register */ 
     usr  = UART1_STATUS;
