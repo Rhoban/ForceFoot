@@ -8,12 +8,20 @@ that you use the AVR ISP MkII. You can also use Arduino Uno as ISP.
 The first step is configuring the fuses, in order to configure it to use the
 external 16Mhz quartz. You can run the fuse.sh script:
 
-    ./fuse.sh
+    ./fuse-m328p.sh
+
+Alternatively, you can use:
+
+    ./fuse-m328pb.sh
+
+For the ATmega328PB
 
 This assumes you use the AVR ISP MkII, you can however change this script according
 to your hardware.
 
 ## Building
+
+First, edit `Makefile.config` to set `MCU_TARGET` to either `atmega328p` or `atmega328pb`.
 
 To build the firmware, simply run:
 
