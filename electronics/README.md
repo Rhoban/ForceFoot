@@ -44,7 +44,7 @@ Here's a list of components you'll need to build the board with example links fo
 
 ### Controller
 
-* ATmega328p
+* ATmega328PB
 * 16 Mhz HC49US quartz
 
 ### Resistors (all are 0805 package)
