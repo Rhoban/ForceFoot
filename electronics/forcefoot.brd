@@ -36,25 +36,25 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -156,11 +156,11 @@
 <wire x1="60" y1="-0.2" x2="60" y2="43.4" width="0" layer="20"/>
 <wire x1="60" y1="43.4" x2="0" y2="43.4" width="0" layer="20"/>
 <wire x1="0" y1="43.4" x2="0" y2="-0.2" width="0" layer="20"/>
-<wire x1="4.2" y1="34.6" x2="4.2" y2="31.6" width="0.4064" layer="122" style="shortdash"/>
-<wire x1="4.2" y1="31.6" x2="13.6" y2="31.6" width="0.4064" layer="122" style="shortdash"/>
-<wire x1="13.6" y1="31.6" x2="13.6" y2="34.8" width="0.4064" layer="122" style="shortdash"/>
-<wire x1="13.6" y1="34.8" x2="4.2" y2="34.8" width="0.4064" layer="122" style="shortdash"/>
-<text x="3.6" y="31" size="1.778" layer="122" rot="R90">TTL</text>
+<wire x1="4.2" y1="34.6" x2="4.2" y2="31.6" width="0.4064" layer="121" style="shortdash"/>
+<wire x1="4.2" y1="31.6" x2="13.6" y2="31.6" width="0.4064" layer="121" style="shortdash"/>
+<wire x1="13.6" y1="31.6" x2="13.6" y2="34.8" width="0.4064" layer="121" style="shortdash"/>
+<wire x1="13.6" y1="34.8" x2="4.2" y2="34.8" width="0.4064" layer="121" style="shortdash"/>
+<text x="3.6" y="31" size="1.778" layer="121" rot="R90">TTL</text>
 <wire x1="38.2" y1="7" x2="38.4" y2="7" width="0.4064" layer="121" style="shortdash"/>
 <rectangle x1="0.112528125" y1="36.691515625" x2="6.759784375" y2="43.769321875" layer="41"/>
 <rectangle x1="0.0976" y1="36.68371875" x2="6.7570125" y2="43.77680625" layer="42"/>
