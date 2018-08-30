@@ -2312,71 +2312,181 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </class>
 </classes>
 <parts>
-<part name="U$1" library="rhoban" deviceset="8550-PNP" device=""/>
-<part name="C1" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF"/>
-<part name="C2" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF"/>
-<part name="C4" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1k"/>
-<part name="U$3" library="rhoban" deviceset="CONNEC_1X04" device="1.5"/>
-<part name="HX2" library="rhoban" deviceset="HX711" device="SO16"/>
-<part name="U$6" library="rhoban" deviceset="8550-PNP" device=""/>
-<part name="C5" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF"/>
-<part name="C6" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF"/>
-<part name="C7" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF"/>
-<part name="R4" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="20k"/>
-<part name="R5" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="8.2k"/>
-<part name="C8" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="R6" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1k"/>
-<part name="U$7" library="rhoban" deviceset="CONNEC_1X04" device="1.5"/>
-<part name="HX3" library="rhoban" deviceset="HX711" device="SO16"/>
-<part name="U$9" library="rhoban" deviceset="8550-PNP" device=""/>
-<part name="C9" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF"/>
-<part name="C10" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF"/>
-<part name="C11" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF"/>
-<part name="R7" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="20k"/>
-<part name="R8" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="8.2k"/>
-<part name="C12" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="R9" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1k"/>
-<part name="U$10" library="rhoban" deviceset="CONNEC_1X04" device="1.5"/>
-<part name="HX4" library="rhoban" deviceset="HX711" device="SO16"/>
-<part name="U$12" library="rhoban" deviceset="8550-PNP" device=""/>
-<part name="C13" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF"/>
-<part name="C14" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF"/>
-<part name="C15" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF"/>
-<part name="R10" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="20k"/>
-<part name="R11" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="8.2k"/>
-<part name="C16" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="R12" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1k"/>
-<part name="U$13" library="rhoban" deviceset="CONNEC_1X04" device="1.5"/>
-<part name="MAX485" library="rhoban" deviceset="MAX485" device=""/>
+<part name="U$1" library="rhoban" deviceset="8550-PNP" device="">
+<attribute name="FARNELL" value="1095136"/>
+</part>
+<part name="C1" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF">
+<attribute name="FARNELL" value="2525136RL"/>
+</part>
+<part name="C2" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF">
+<attribute name="FARNELL" value="2525136RL"/>
+</part>
+<part name="C4" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
+<attribute name="FARNELL" value="2688486RL"/>
+</part>
+<part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1k">
+<attribute name="FARNELL" value="2074332RL"/>
+</part>
+<part name="U$3" library="rhoban" deviceset="CONNEC_1X04" device="1.5">
+<attribute name="FARNELL" value="9491791"/>
+</part>
+<part name="HX2" library="rhoban" deviceset="HX711" device="SO16">
+<attribute name="FARNELL" value="HX711"/>
+</part>
+<part name="U$6" library="rhoban" deviceset="8550-PNP" device="">
+<attribute name="FARNELL" value="1095136"/>
+</part>
+<part name="C5" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF">
+<attribute name="FARNELL" value="2525136RL"/>
+</part>
+<part name="C6" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF">
+<attribute name="FARNELL" value="2525136RL"/>
+</part>
+<part name="C7" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF">
+<attribute name="FARNELL" value="2525136RL"/>
+</part>
+<part name="R4" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="20k">
+<attribute name="FARNELL" value="2074395"/>
+</part>
+<part name="R5" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="8.2k">
+<attribute name="FARNELL" value="2074518"/>
+</part>
+<part name="C8" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
+<attribute name="FARNELL" value="2688486RL"/>
+</part>
+<part name="R6" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1k">
+<attribute name="FARNELL" value="2074332RL"/>
+</part>
+<part name="U$7" library="rhoban" deviceset="CONNEC_1X04" device="1.5">
+<attribute name="FARNELL" value="9491791"/>
+</part>
+<part name="HX3" library="rhoban" deviceset="HX711" device="SO16">
+<attribute name="FARNELL" value="HX711"/>
+</part>
+<part name="U$9" library="rhoban" deviceset="8550-PNP" device="">
+<attribute name="FARNELL" value="1095136"/>
+</part>
+<part name="C9" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF">
+<attribute name="FARNELL" value="2525136RL"/>
+</part>
+<part name="C10" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF">
+<attribute name="FARNELL" value="2525136RL"/>
+</part>
+<part name="C11" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF">
+<attribute name="FARNELL" value="2525136RL"/>
+</part>
+<part name="R7" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="20k">
+<attribute name="FARNELL" value="2074395"/>
+</part>
+<part name="R8" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="8.2k">
+<attribute name="FARNELL" value="2074518"/>
+</part>
+<part name="C12" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
+<attribute name="FARNELL" value="2688486RL"/>
+</part>
+<part name="R9" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1k">
+<attribute name="FARNELL" value="2074332RL"/>
+</part>
+<part name="U$10" library="rhoban" deviceset="CONNEC_1X04" device="1.5">
+<attribute name="FARNELL" value="9491791"/>
+</part>
+<part name="HX4" library="rhoban" deviceset="HX711" device="SO16">
+<attribute name="FARNELL" value="HX711"/>
+</part>
+<part name="U$12" library="rhoban" deviceset="8550-PNP" device="">
+<attribute name="FARNELL" value="1095136"/>
+</part>
+<part name="C13" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF">
+<attribute name="FARNELL" value="2525136RL"/>
+</part>
+<part name="C14" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF">
+<attribute name="FARNELL" value="2525136RL"/>
+</part>
+<part name="C15" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF">
+<attribute name="FARNELL" value="2525136RL"/>
+</part>
+<part name="R10" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="20k">
+<attribute name="FARNELL" value="2074395"/>
+</part>
+<part name="R11" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="8.2k">
+<attribute name="FARNELL" value="2074518"/>
+</part>
+<part name="C16" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
+<attribute name="FARNELL" value="2688486RL"/>
+</part>
+<part name="R12" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1k">
+<attribute name="FARNELL" value="2074332RL"/>
+</part>
+<part name="U$13" library="rhoban" deviceset="CONNEC_1X04" device="1.5">
+<attribute name="FARNELL" value="9491791"/>
+</part>
+<part name="MAX485" library="rhoban" deviceset="MAX485" device="">
+<attribute name="FARNELL" value="1564306"/>
+</part>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="P+7" library="supply1" deviceset="VCC" device=""/>
 <part name="P+9" library="supply1" deviceset="VCC" device=""/>
-<part name="R13" library="rhoban" deviceset="RESISTANCE" device="-R0805" value="3k"/>
-<part name="R16" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="20k"/>
-<part name="R17" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="8.2k"/>
-<part name="R1" library="rhoban" deviceset="RESISTANCE" device="-R0805" value="3k"/>
+<part name="R13" library="rhoban" deviceset="RESISTANCE" device="-R0805" value="3k">
+<attribute name="FARNELL" value="2074431"/>
+</part>
+<part name="R16" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="20k">
+<attribute name="FARNELL" value="2074395"/>
+</part>
+<part name="R17" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="8.2k">
+<attribute name="FARNELL" value="2074518"/>
+</part>
+<part name="R1" library="rhoban" deviceset="RESISTANCE" device="-R0805" value="3k">
+<attribute name="FARNELL" value="2074431"/>
+</part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="R2" library="rhoban" deviceset="RESISTANCE" device="-R0805" value="3k"/>
-<part name="R18" library="rhoban" deviceset="RESISTANCE" device="-R0805" value="3k"/>
+<part name="R2" library="rhoban" deviceset="RESISTANCE" device="-R0805" value="3k">
+<attribute name="FARNELL" value="2074431"/>
+</part>
+<part name="R18" library="rhoban" deviceset="RESISTANCE" device="-R0805" value="3k">
+<attribute name="FARNELL" value="2074431"/>
+</part>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
-<part name="R14" library="rhoban" deviceset="RESISTANCE" device="-R0805" value="22"/>
-<part name="R15" library="rhoban" deviceset="RESISTANCE" device="-R0805" value="22"/>
-<part name="R19" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="3K"/>
-<part name="R20" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="3K"/>
+<part name="R14" library="rhoban" deviceset="RESISTANCE" device="-R0805" value="22">
+<attribute name="FARNELL" value="2446926"/>
+</part>
+<part name="R15" library="rhoban" deviceset="RESISTANCE" device="-R0805" value="22">
+<attribute name="FARNELL" value="2446926"/>
+</part>
+<part name="R19" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="3K">
+<attribute name="FARNELL" value="2074431"/>
+</part>
+<part name="R20" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="3K">
+<attribute name="FARNELL" value="2074431"/>
+</part>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="R21" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="3K"/>
-<part name="R22" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="3K"/>
+<part name="R21" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="3K">
+<attribute name="FARNELL" value="2074431"/>
+</part>
+<part name="R22" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="3K">
+<attribute name="FARNELL" value="2074431"/>
+</part>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="R23" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="3K"/>
-<part name="R24" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="3K"/>
+<part name="R23" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="3K">
+<attribute name="FARNELL" value="2074431"/>
+</part>
+<part name="R24" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="3K">
+<attribute name="FARNELL" value="2074431"/>
+</part>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="R25" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="3K"/>
-<part name="R26" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="3K"/>
+<part name="R25" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="3K">
+<attribute name="FARNELL" value="2074431"/>
+</part>
+<part name="R26" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="3K">
+<attribute name="FARNELL" value="2074431"/>
+</part>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="U$2" library="rhoban" deviceset="CPOL_EU" device="PANASONIC_D" value="47uF"/>
-<part name="U$4" library="rhoban" deviceset="CPOL_EU" device="PANASONIC_D8" value="220uF"/>
+<part name="U$2" library="rhoban" deviceset="CPOL_EU" device="PANASONIC_D" value="47uF">
+<attribute name="FARNELL" value="9696946"/>
+</part>
+<part name="U$4" library="rhoban" deviceset="CPOL_EU" device="PANASONIC_D8" value="220uF">
+<attribute name="FARNELL" value="1850103"/>
+</part>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
@@ -2385,92 +2495,228 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
-<part name="XTAL1" library="rhoban" deviceset="QUARTZ" device="" value=""/>
-<part name="C17" library="rhoban" deviceset="C_EU" device="_22PF" value="22"/>
-<part name="C18" library="rhoban" deviceset="C_EU" device="_22PF" value="22"/>
+<part name="XTAL1" library="rhoban" deviceset="QUARTZ" device="" value="">
+<attribute name="FARNELL" value="7940506"/>
+</part>
+<part name="C17" library="rhoban" deviceset="C_EU" device="_22PF" value="22">
+<attribute name="FARNELL" value="1759489RL"/>
+</part>
+<part name="C18" library="rhoban" deviceset="C_EU" device="_22PF" value="22">
+<attribute name="FARNELL" value="1759489RL"/>
+</part>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
-<part name="R27" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k"/>
-<part name="ISP" library="rhoban" deviceset="CONNEC_2X03" device=""/>
-<part name="REG" library="rhoban" deviceset="REG_5V" device=""/>
-<part name="DXL" library="rhoban" deviceset="CONNEC_1X04" device="_485"/>
-<part name="IMU" library="rhoban" deviceset="GY-85" device=""/>
-<part name="R28" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="3K"/>
-<part name="R29" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="3K"/>
-<part name="HX1" library="rhoban" deviceset="HX711" device="SO16"/>
-<part name="C3" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF"/>
-<part name="U2" library="SparkFun-DigitalIC" deviceset="ATMEGA168" device=""/>
+<part name="R27" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k">
+<attribute name="FARNELL" value="2074334RL"/>
+</part>
+<part name="ISP" library="rhoban" deviceset="CONNEC_2X03" device="">
+<attribute name="FARNELL" value="1593440"/>
+</part>
+<part name="REG" library="rhoban" deviceset="REG_5V" device="">
+<attribute name="FARNELL" value="1696320"/>
+</part>
+<part name="DXL" library="rhoban" deviceset="CONNEC_1X04" device="_485">
+<attribute name="FARNELL" value="1104204 OR 9979620"/>
+</part>
+<part name="IMU" library="rhoban" deviceset="GY-85" device="">
+<attribute name="FARNELL" value="-"/>
+</part>
+<part name="R28" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="3K">
+<attribute name="FARNELL" value="2074431"/>
+</part>
+<part name="R29" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="3K">
+<attribute name="FARNELL" value="2074431"/>
+</part>
+<part name="HX1" library="rhoban" deviceset="HX711" device="SO16">
+<attribute name="FARNELL" value="HX711"/>
+</part>
+<part name="C3" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF">
+<attribute name="FARNELL" value="2525136RL"/>
+</part>
+<part name="U2" library="SparkFun-DigitalIC" deviceset="ATMEGA168" device="">
+<attribute name="FARNELL" value="2523203"/>
+</part>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="30.48" y="76.2"/>
-<instance part="C1" gate="G$1" x="109.22" y="68.58"/>
-<instance part="C2" gate="G$1" x="50.8" y="53.34" rot="R90"/>
-<instance part="C4" gate="G$1" x="45.72" y="20.32"/>
-<instance part="R3" gate="G$1" x="40.64" y="15.24" rot="R180"/>
-<instance part="U$3" gate="G$1" x="17.78" y="20.32" rot="R180"/>
-<instance part="HX2" gate="G$1" x="195.58" y="58.42"/>
-<instance part="U$6" gate="G$1" x="149.86" y="73.66"/>
-<instance part="C5" gate="G$1" x="228.6" y="66.04"/>
-<instance part="C6" gate="G$1" x="170.18" y="50.8" rot="R90"/>
-<instance part="C7" gate="G$1" x="142.24" y="66.04" rot="R90"/>
-<instance part="R4" gate="G$1" x="144.78" y="50.8" rot="R90"/>
-<instance part="R5" gate="G$1" x="144.78" y="38.1" rot="R90"/>
-<instance part="C8" gate="G$1" x="165.1" y="17.78"/>
-<instance part="R6" gate="G$1" x="160.02" y="12.7" rot="R180"/>
-<instance part="U$7" gate="G$1" x="137.16" y="17.78" rot="R180"/>
-<instance part="HX3" gate="G$1" x="314.96" y="58.42"/>
-<instance part="U$9" gate="G$1" x="269.24" y="73.66"/>
-<instance part="C9" gate="G$1" x="347.98" y="66.04"/>
-<instance part="C10" gate="G$1" x="289.56" y="50.8" rot="R90"/>
-<instance part="C11" gate="G$1" x="261.62" y="66.04" rot="R90"/>
-<instance part="R7" gate="G$1" x="264.16" y="50.8" rot="R90"/>
-<instance part="R8" gate="G$1" x="264.16" y="38.1" rot="R90"/>
-<instance part="C12" gate="G$1" x="284.48" y="17.78"/>
-<instance part="R9" gate="G$1" x="279.4" y="12.7" rot="R180"/>
-<instance part="U$10" gate="G$1" x="256.54" y="17.78" rot="R180"/>
-<instance part="HX4" gate="G$1" x="429.26" y="58.42"/>
-<instance part="U$12" gate="G$1" x="383.54" y="73.66"/>
-<instance part="C13" gate="G$1" x="462.28" y="66.04"/>
-<instance part="C14" gate="G$1" x="403.86" y="50.8" rot="R90"/>
-<instance part="C15" gate="G$1" x="375.92" y="66.04" rot="R90"/>
-<instance part="R10" gate="G$1" x="378.46" y="50.8" rot="R90"/>
-<instance part="R11" gate="G$1" x="378.46" y="38.1" rot="R90"/>
-<instance part="C16" gate="G$1" x="398.78" y="17.78"/>
-<instance part="R12" gate="G$1" x="393.7" y="12.7" rot="R180"/>
-<instance part="U$13" gate="G$1" x="370.84" y="17.78" rot="R180"/>
-<instance part="MAX485" gate="A" x="187.96" y="147.32"/>
+<instance part="U$1" gate="G$1" x="30.48" y="76.2">
+<attribute name="FARNELL" x="30.48" y="76.2" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C1" gate="G$1" x="109.22" y="68.58">
+<attribute name="FARNELL" x="109.22" y="68.58" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C2" gate="G$1" x="50.8" y="53.34" rot="R90">
+<attribute name="FARNELL" x="50.8" y="53.34" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C4" gate="G$1" x="45.72" y="20.32">
+<attribute name="FARNELL" x="45.72" y="20.32" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R3" gate="G$1" x="40.64" y="15.24" rot="R180">
+<attribute name="FARNELL" x="40.64" y="15.24" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="U$3" gate="G$1" x="17.78" y="20.32" rot="R180">
+<attribute name="FARNELL" x="17.78" y="20.32" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="HX2" gate="G$1" x="195.58" y="58.42">
+<attribute name="FARNELL" x="195.58" y="58.42" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$6" gate="G$1" x="149.86" y="73.66">
+<attribute name="FARNELL" x="149.86" y="73.66" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C5" gate="G$1" x="228.6" y="66.04">
+<attribute name="FARNELL" x="228.6" y="66.04" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C6" gate="G$1" x="170.18" y="50.8" rot="R90">
+<attribute name="FARNELL" x="170.18" y="50.8" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C7" gate="G$1" x="142.24" y="66.04" rot="R90">
+<attribute name="FARNELL" x="142.24" y="66.04" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R4" gate="G$1" x="144.78" y="50.8" rot="R90">
+<attribute name="FARNELL" x="144.78" y="50.8" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R5" gate="G$1" x="144.78" y="38.1" rot="R90">
+<attribute name="FARNELL" x="144.78" y="38.1" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C8" gate="G$1" x="165.1" y="17.78">
+<attribute name="FARNELL" x="165.1" y="17.78" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R6" gate="G$1" x="160.02" y="12.7" rot="R180">
+<attribute name="FARNELL" x="160.02" y="12.7" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="U$7" gate="G$1" x="137.16" y="17.78" rot="R180">
+<attribute name="FARNELL" x="137.16" y="17.78" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="HX3" gate="G$1" x="314.96" y="58.42">
+<attribute name="FARNELL" x="314.96" y="58.42" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$9" gate="G$1" x="269.24" y="73.66">
+<attribute name="FARNELL" x="269.24" y="73.66" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C9" gate="G$1" x="347.98" y="66.04">
+<attribute name="FARNELL" x="347.98" y="66.04" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C10" gate="G$1" x="289.56" y="50.8" rot="R90">
+<attribute name="FARNELL" x="289.56" y="50.8" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C11" gate="G$1" x="261.62" y="66.04" rot="R90">
+<attribute name="FARNELL" x="261.62" y="66.04" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R7" gate="G$1" x="264.16" y="50.8" rot="R90">
+<attribute name="FARNELL" x="264.16" y="50.8" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R8" gate="G$1" x="264.16" y="38.1" rot="R90">
+<attribute name="FARNELL" x="264.16" y="38.1" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C12" gate="G$1" x="284.48" y="17.78">
+<attribute name="FARNELL" x="284.48" y="17.78" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R9" gate="G$1" x="279.4" y="12.7" rot="R180">
+<attribute name="FARNELL" x="279.4" y="12.7" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="U$10" gate="G$1" x="256.54" y="17.78" rot="R180">
+<attribute name="FARNELL" x="256.54" y="17.78" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="HX4" gate="G$1" x="429.26" y="58.42">
+<attribute name="FARNELL" x="429.26" y="58.42" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$12" gate="G$1" x="383.54" y="73.66">
+<attribute name="FARNELL" x="383.54" y="73.66" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C13" gate="G$1" x="462.28" y="66.04">
+<attribute name="FARNELL" x="462.28" y="66.04" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C14" gate="G$1" x="403.86" y="50.8" rot="R90">
+<attribute name="FARNELL" x="403.86" y="50.8" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C15" gate="G$1" x="375.92" y="66.04" rot="R90">
+<attribute name="FARNELL" x="375.92" y="66.04" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R10" gate="G$1" x="378.46" y="50.8" rot="R90">
+<attribute name="FARNELL" x="378.46" y="50.8" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R11" gate="G$1" x="378.46" y="38.1" rot="R90">
+<attribute name="FARNELL" x="378.46" y="38.1" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C16" gate="G$1" x="398.78" y="17.78">
+<attribute name="FARNELL" x="398.78" y="17.78" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R12" gate="G$1" x="393.7" y="12.7" rot="R180">
+<attribute name="FARNELL" x="393.7" y="12.7" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="U$13" gate="G$1" x="370.84" y="17.78" rot="R180">
+<attribute name="FARNELL" x="370.84" y="17.78" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="MAX485" gate="A" x="187.96" y="147.32">
+<attribute name="FARNELL" x="187.96" y="147.32" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND11" gate="1" x="167.64" y="132.08"/>
 <instance part="P+7" gate="VCC" x="167.64" y="154.94"/>
 <instance part="P+9" gate="VCC" x="205.74" y="165.1"/>
-<instance part="R13" gate="G$1" x="205.74" y="157.48" rot="R90"/>
-<instance part="R16" gate="G$1" x="25.4" y="53.34" rot="R90"/>
-<instance part="R17" gate="G$1" x="25.4" y="40.64" rot="R90"/>
-<instance part="R1" gate="G$1" x="160.02" y="142.24" rot="R90"/>
+<instance part="R13" gate="G$1" x="205.74" y="157.48" rot="R90">
+<attribute name="FARNELL" x="205.74" y="157.48" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R16" gate="G$1" x="25.4" y="53.34" rot="R90">
+<attribute name="FARNELL" x="25.4" y="53.34" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R17" gate="G$1" x="25.4" y="40.64" rot="R90">
+<attribute name="FARNELL" x="25.4" y="40.64" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R1" gate="G$1" x="160.02" y="142.24" rot="R90">
+<attribute name="FARNELL" x="160.02" y="142.24" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="GND1" gate="1" x="160.02" y="134.62"/>
-<instance part="R2" gate="G$1" x="264.16" y="142.24" rot="R90"/>
-<instance part="R18" gate="G$1" x="264.16" y="127" rot="R90"/>
+<instance part="R2" gate="G$1" x="264.16" y="142.24" rot="R90">
+<attribute name="FARNELL" x="264.16" y="142.24" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R18" gate="G$1" x="264.16" y="127" rot="R90">
+<attribute name="FARNELL" x="264.16" y="127" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="GND2" gate="1" x="264.16" y="116.84"/>
 <instance part="P+1" gate="VCC" x="264.16" y="152.4"/>
-<instance part="R14" gate="G$1" x="238.76" y="142.24" rot="R180"/>
-<instance part="R15" gate="G$1" x="238.76" y="139.7" rot="R180"/>
-<instance part="R19" gate="G$1" x="7.62" y="33.02" rot="R90"/>
-<instance part="R20" gate="G$1" x="7.62" y="22.86" rot="R90"/>
+<instance part="R14" gate="G$1" x="238.76" y="142.24" rot="R180">
+<attribute name="FARNELL" x="238.76" y="142.24" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="R15" gate="G$1" x="238.76" y="139.7" rot="R180">
+<attribute name="FARNELL" x="238.76" y="139.7" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="R19" gate="G$1" x="7.62" y="33.02" rot="R90">
+<attribute name="FARNELL" x="7.62" y="33.02" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R20" gate="G$1" x="7.62" y="22.86" rot="R90">
+<attribute name="FARNELL" x="7.62" y="22.86" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="GND3" gate="1" x="7.62" y="12.7"/>
-<instance part="R21" gate="G$1" x="127" y="30.48" rot="R90"/>
-<instance part="R22" gate="G$1" x="127" y="20.32" rot="R90"/>
+<instance part="R21" gate="G$1" x="127" y="30.48" rot="R90">
+<attribute name="FARNELL" x="127" y="30.48" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R22" gate="G$1" x="127" y="20.32" rot="R90">
+<attribute name="FARNELL" x="127" y="20.32" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="GND4" gate="1" x="127" y="10.16"/>
-<instance part="R23" gate="G$1" x="246.38" y="30.48" rot="R90"/>
-<instance part="R24" gate="G$1" x="246.38" y="20.32" rot="R90"/>
+<instance part="R23" gate="G$1" x="246.38" y="30.48" rot="R90">
+<attribute name="FARNELL" x="246.38" y="30.48" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R24" gate="G$1" x="246.38" y="20.32" rot="R90">
+<attribute name="FARNELL" x="246.38" y="20.32" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="GND5" gate="1" x="246.38" y="10.16"/>
-<instance part="R25" gate="G$1" x="360.68" y="30.48" rot="R90"/>
-<instance part="R26" gate="G$1" x="360.68" y="20.32" rot="R90"/>
+<instance part="R25" gate="G$1" x="360.68" y="30.48" rot="R90">
+<attribute name="FARNELL" x="360.68" y="30.48" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R26" gate="G$1" x="360.68" y="20.32" rot="R90">
+<attribute name="FARNELL" x="360.68" y="20.32" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="GND6" gate="1" x="360.68" y="10.16"/>
-<instance part="U$2" gate="G$1" x="358.14" y="137.16"/>
-<instance part="U$4" gate="G$1" x="368.3" y="137.16"/>
+<instance part="U$2" gate="G$1" x="358.14" y="137.16">
+<attribute name="FARNELL" x="358.14" y="137.16" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$4" gate="G$1" x="368.3" y="137.16">
+<attribute name="FARNELL" x="368.3" y="137.16" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="P+2" gate="VCC" x="358.14" y="147.32"/>
 <instance part="P+3" gate="VCC" x="368.3" y="147.32"/>
 <instance part="GND7" gate="1" x="358.14" y="129.54"/>
@@ -2479,21 +2725,47 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND10" gate="1" x="144.78" y="27.94"/>
 <instance part="GND12" gate="1" x="264.16" y="27.94"/>
 <instance part="GND13" gate="1" x="378.46" y="27.94"/>
-<instance part="XTAL1" gate="G$1" x="30.48" y="149.86" rot="R90"/>
-<instance part="C17" gate="G$1" x="22.86" y="154.94" rot="R90"/>
-<instance part="C18" gate="G$1" x="22.86" y="144.78" rot="R90"/>
+<instance part="XTAL1" gate="G$1" x="30.48" y="149.86" rot="R90">
+<attribute name="FARNELL" x="30.48" y="149.86" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C17" gate="G$1" x="22.86" y="154.94" rot="R90">
+<attribute name="FARNELL" x="22.86" y="154.94" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C18" gate="G$1" x="22.86" y="144.78" rot="R90">
+<attribute name="FARNELL" x="22.86" y="144.78" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="GND14" gate="1" x="17.78" y="137.16"/>
 <instance part="GND15" gate="1" x="45.72" y="119.38"/>
-<instance part="R27" gate="G$1" x="43.18" y="185.42" rot="R90"/>
-<instance part="ISP" gate="G$1" x="73.66" y="109.22"/>
-<instance part="REG" gate="G$1" x="314.96" y="127"/>
-<instance part="DXL" gate="G$1" x="248.92" y="139.7"/>
-<instance part="IMU" gate="G$1" x="426.72" y="142.24"/>
-<instance part="R28" gate="G$1" x="109.22" y="172.72" rot="R90"/>
-<instance part="R29" gate="G$1" x="111.76" y="175.26" rot="R90"/>
-<instance part="HX1" gate="G$1" x="76.2" y="60.96"/>
-<instance part="C3" gate="G$1" x="22.86" y="68.58" rot="R90"/>
-<instance part="U2" gate="G$1" x="71.12" y="154.94"/>
+<instance part="R27" gate="G$1" x="43.18" y="185.42" rot="R90">
+<attribute name="FARNELL" x="43.18" y="185.42" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="ISP" gate="G$1" x="73.66" y="109.22">
+<attribute name="FARNELL" x="73.66" y="109.22" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="REG" gate="G$1" x="314.96" y="127">
+<attribute name="FARNELL" x="314.96" y="127" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="DXL" gate="G$1" x="248.92" y="139.7">
+<attribute name="FARNELL" x="248.92" y="139.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="IMU" gate="G$1" x="426.72" y="142.24">
+<attribute name="FARNELL" x="426.72" y="142.24" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R28" gate="G$1" x="109.22" y="172.72" rot="R90">
+<attribute name="FARNELL" x="109.22" y="172.72" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R29" gate="G$1" x="111.76" y="175.26" rot="R90">
+<attribute name="FARNELL" x="111.76" y="175.26" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="HX1" gate="G$1" x="76.2" y="60.96">
+<attribute name="FARNELL" x="76.2" y="60.96" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C3" gate="G$1" x="22.86" y="68.58" rot="R90">
+<attribute name="FARNELL" x="22.86" y="68.58" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="U2" gate="G$1" x="71.12" y="154.94">
+<attribute name="FARNELL" x="71.12" y="154.94" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -2502,11 +2774,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="HX4" gate="G$1" pin="SCK"/>
 <wire x1="449.58" y1="48.26" x2="452.12" y2="48.26" width="0.1524" layer="91"/>
-<label x="452.12" y="48.26" size="1.778" layer="95"/>
+<label x="452.12" y="48.26" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="96.52" y1="165.1" x2="99.06" y2="165.1" width="0.1524" layer="91"/>
-<label x="99.06" y="165.1" size="1.778" layer="95"/>
+<label x="99.06" y="165.1" size="1.27" layer="95" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="ADC6"/>
 </segment>
 </net>
@@ -2514,98 +2786,98 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="HX4" gate="G$1" pin="DOUT"/>
 <wire x1="449.58" y1="45.72" x2="452.12" y2="45.72" width="0.1524" layer="91"/>
-<label x="452.12" y="45.72" size="1.778" layer="95"/>
+<label x="452.12" y="45.72" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="96.52" y1="162.56" x2="99.06" y2="162.56" width="0.1524" layer="91"/>
-<label x="99.06" y="162.56" size="1.778" layer="95"/>
+<label x="99.06" y="162.56" size="1.27" layer="95" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="ADC7"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
 <wire x1="96.52" y1="60.96" x2="99.06" y2="60.96" width="0.1524" layer="91"/>
-<label x="99.06" y="60.96" size="1.778" layer="95"/>
+<label x="99.06" y="60.96" size="1.27" layer="95" xref="yes"/>
 <pinref part="HX1" gate="G$1" pin="X1"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="109.22" y1="66.04" x2="109.22" y2="63.5" width="0.1524" layer="91"/>
-<label x="109.22" y="60.96" size="1.778" layer="95"/>
+<label x="109.22" y="63.5" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="1"/>
 <wire x1="15.24" y1="12.7" x2="20.32" y2="12.7" width="0.1524" layer="91"/>
-<label x="20.32" y="12.7" size="1.778" layer="95"/>
+<label x="20.32" y="12.7" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="17.78" y1="68.58" x2="15.24" y2="68.58" width="0.1524" layer="91"/>
-<label x="10.16" y="68.58" size="1.778" layer="95"/>
+<label x="15.24" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="HX2" gate="G$1" pin="X1"/>
 <wire x1="215.9" y1="58.42" x2="218.44" y2="58.42" width="0.1524" layer="91"/>
-<label x="218.44" y="58.42" size="1.778" layer="95"/>
+<label x="218.44" y="58.42" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="2"/>
 <wire x1="228.6" y1="63.5" x2="228.6" y2="60.96" width="0.1524" layer="91"/>
-<label x="228.6" y="58.42" size="1.778" layer="95"/>
+<label x="228.6" y="60.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$7" gate="G$1" pin="1"/>
 <wire x1="134.62" y1="10.16" x2="139.7" y2="10.16" width="0.1524" layer="91"/>
-<label x="139.7" y="10.16" size="1.778" layer="95"/>
+<label x="139.7" y="10.16" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="66.04" x2="134.62" y2="66.04" width="0.1524" layer="91"/>
-<label x="129.54" y="66.04" size="1.778" layer="95"/>
+<label x="134.62" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="HX3" gate="G$1" pin="X1"/>
 <wire x1="335.28" y1="58.42" x2="337.82" y2="58.42" width="0.1524" layer="91"/>
-<label x="337.82" y="58.42" size="1.778" layer="95"/>
+<label x="337.82" y="58.42" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="347.98" y1="63.5" x2="347.98" y2="60.96" width="0.1524" layer="91"/>
-<label x="347.98" y="58.42" size="1.778" layer="95"/>
+<label x="347.98" y="60.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$10" gate="G$1" pin="1"/>
 <wire x1="254" y1="10.16" x2="259.08" y2="10.16" width="0.1524" layer="91"/>
-<label x="259.08" y="10.16" size="1.778" layer="95"/>
+<label x="259.08" y="10.16" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="C11" gate="G$1" pin="1"/>
 <wire x1="256.54" y1="66.04" x2="254" y2="66.04" width="0.1524" layer="91"/>
-<label x="248.92" y="66.04" size="1.778" layer="95"/>
+<label x="254" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="HX4" gate="G$1" pin="X1"/>
 <wire x1="449.58" y1="58.42" x2="452.12" y2="58.42" width="0.1524" layer="91"/>
-<label x="452.12" y="58.42" size="1.778" layer="95"/>
+<label x="452.12" y="58.42" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="C13" gate="G$1" pin="2"/>
 <wire x1="462.28" y1="63.5" x2="462.28" y2="60.96" width="0.1524" layer="91"/>
-<label x="462.28" y="58.42" size="1.778" layer="95"/>
+<label x="462.28" y="60.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$13" gate="G$1" pin="1"/>
 <wire x1="368.3" y1="10.16" x2="373.38" y2="10.16" width="0.1524" layer="91"/>
-<label x="373.38" y="10.16" size="1.778" layer="95"/>
+<label x="373.38" y="10.16" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="C15" gate="G$1" pin="1"/>
 <wire x1="370.84" y1="66.04" x2="368.3" y2="66.04" width="0.1524" layer="91"/>
-<label x="363.22" y="66.04" size="1.778" layer="95"/>
+<label x="368.3" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="251.46" y1="147.32" x2="243.84" y2="147.32" width="0.1524" layer="91"/>
-<label x="238.76" y="147.32" size="1.778" layer="95"/>
+<label x="243.84" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="DXL" gate="G$1" pin="1"/>
 </segment>
 <segment>
@@ -2734,17 +3006,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="ISP" gate="G$1" pin="6"/>
 <wire x1="88.9" y1="106.68" x2="91.44" y2="106.68" width="0.1524" layer="91"/>
-<label x="91.44" y="106.68" size="1.778" layer="95"/>
+<label x="91.44" y="106.68" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="REG" gate="G$1" pin="GND"/>
 <wire x1="307.34" y1="124.46" x2="307.34" y2="121.92" width="0.1524" layer="91"/>
-<label x="307.34" y="119.38" size="1.778" layer="95"/>
+<label x="307.34" y="121.92" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="IMU" gate="G$1" pin="GND"/>
 <wire x1="414.02" y1="144.78" x2="406.4" y2="144.78" width="0.1524" layer="91"/>
-<label x="401.32" y="144.78" size="1.778" layer="95"/>
+<label x="406.4" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -2758,7 +3030,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="53.34" y1="83.82" x2="53.34" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="76.2" x2="53.34" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="83.82" x2="101.6" y2="83.82" width="0.1524" layer="91"/>
-<label x="101.6" y="83.82" size="1.778" layer="95"/>
+<label x="101.6" y="83.82" size="1.27" layer="95" xref="yes"/>
 <junction x="99.06" y="83.82"/>
 <pinref part="HX1" gate="G$1" pin="VSUP"/>
 <pinref part="HX1" gate="G$1" pin="DVDD"/>
@@ -2767,12 +3039,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="U$1" gate="G$1" pin="E"/>
 <wire x1="33.02" y1="81.28" x2="33.02" y2="83.82" width="0.1524" layer="91"/>
-<label x="33.02" y="83.82" size="1.778" layer="95"/>
+<label x="33.02" y="83.82" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="109.22" y1="73.66" x2="109.22" y2="76.2" width="0.1524" layer="91"/>
-<label x="109.22" y="76.2" size="1.778" layer="95"/>
+<label x="109.22" y="76.2" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="HX2" gate="G$1" pin="RATE"/>
@@ -2787,18 +3059,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="HX2" gate="G$1" pin="VSUP"/>
 <wire x1="175.26" y1="73.66" x2="172.72" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="81.28" x2="220.98" y2="81.28" width="0.1524" layer="91"/>
-<label x="220.98" y="81.28" size="1.778" layer="95"/>
+<label x="220.98" y="81.28" size="1.27" layer="95" xref="yes"/>
 <junction x="218.44" y="81.28"/>
 </segment>
 <segment>
 <pinref part="U$6" gate="G$1" pin="E"/>
 <wire x1="152.4" y1="78.74" x2="152.4" y2="81.28" width="0.1524" layer="91"/>
-<label x="152.4" y="81.28" size="1.778" layer="95"/>
+<label x="152.4" y="81.28" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="228.6" y1="71.12" x2="228.6" y2="73.66" width="0.1524" layer="91"/>
-<label x="228.6" y="73.66" size="1.778" layer="95"/>
+<label x="228.6" y="73.66" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="HX3" gate="G$1" pin="RATE"/>
@@ -2813,18 +3085,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="HX3" gate="G$1" pin="VSUP"/>
 <wire x1="294.64" y1="73.66" x2="292.1" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="337.82" y1="81.28" x2="340.36" y2="81.28" width="0.1524" layer="91"/>
-<label x="340.36" y="81.28" size="1.778" layer="95"/>
+<label x="340.36" y="81.28" size="1.27" layer="95" xref="yes"/>
 <junction x="337.82" y="81.28"/>
 </segment>
 <segment>
 <pinref part="U$9" gate="G$1" pin="E"/>
 <wire x1="271.78" y1="78.74" x2="271.78" y2="81.28" width="0.1524" layer="91"/>
-<label x="271.78" y="81.28" size="1.778" layer="95"/>
+<label x="271.78" y="81.28" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="C9" gate="G$1" pin="1"/>
 <wire x1="347.98" y1="71.12" x2="347.98" y2="73.66" width="0.1524" layer="91"/>
-<label x="347.98" y="73.66" size="1.778" layer="95"/>
+<label x="347.98" y="73.66" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="HX4" gate="G$1" pin="RATE"/>
@@ -2839,18 +3111,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="HX4" gate="G$1" pin="VSUP"/>
 <wire x1="408.94" y1="73.66" x2="406.4" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="452.12" y1="81.28" x2="454.66" y2="81.28" width="0.1524" layer="91"/>
-<label x="454.66" y="81.28" size="1.778" layer="95"/>
+<label x="454.66" y="81.28" size="1.27" layer="95" xref="yes"/>
 <junction x="452.12" y="81.28"/>
 </segment>
 <segment>
 <pinref part="U$12" gate="G$1" pin="E"/>
 <wire x1="386.08" y1="78.74" x2="386.08" y2="81.28" width="0.1524" layer="91"/>
-<label x="386.08" y="81.28" size="1.778" layer="95"/>
+<label x="386.08" y="81.28" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="C13" gate="G$1" pin="1"/>
 <wire x1="462.28" y1="71.12" x2="462.28" y2="73.66" width="0.1524" layer="91"/>
-<label x="462.28" y="73.66" size="1.778" layer="95"/>
+<label x="462.28" y="73.66" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="MAX485" gate="A" pin="+5V"/>
@@ -2879,23 +3151,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="REG" gate="G$1" pin="OUT"/>
 <wire x1="322.58" y1="134.62" x2="325.12" y2="134.62" width="0.1524" layer="91"/>
-<label x="325.12" y="134.62" size="1.778" layer="95"/>
+<label x="325.12" y="134.62" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="IMU" gate="G$1" pin="VCC_IN"/>
 <wire x1="414.02" y1="149.86" x2="406.4" y2="149.86" width="0.1524" layer="91"/>
-<label x="401.32" y="149.86" size="1.778" layer="95"/>
+<label x="406.4" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="17.78" y1="172.72" x2="17.78" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="170.18" x2="45.72" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="170.18" x2="45.72" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="170.18" x2="48.26" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="172.72" x2="45.72" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="172.72" x2="45.72" y2="170.18" width="0.1524" layer="91"/>
 <junction x="45.72" y="170.18"/>
 <wire x1="48.26" y1="165.1" x2="45.72" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="165.1" x2="45.72" y2="170.18" width="0.1524" layer="91"/>
-<label x="17.78" y="172.72" size="1.778" layer="95"/>
+<label x="40.64" y="170.18" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="VCC@1"/>
 <pinref part="U2" gate="G$1" pin="VCC@2"/>
 <pinref part="U2" gate="G$1" pin="AREF"/>
@@ -2903,23 +3174,23 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <wire x1="43.18" y1="193.04" x2="43.18" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="R27" gate="G$1" pin="2"/>
-<label x="43.18" y="193.04" size="1.778" layer="95"/>
+<label x="43.18" y="193.04" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="ISP" gate="G$1" pin="2"/>
 <wire x1="88.9" y1="111.76" x2="91.44" y2="111.76" width="0.1524" layer="91"/>
-<label x="91.44" y="111.76" size="1.778" layer="95"/>
+<label x="91.44" y="111.76" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="1BASE" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="B"/>
 <wire x1="27.94" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
-<label x="20.32" y="76.2" size="1.778" layer="95"/>
+<label x="25.4" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="55.88" y1="73.66" x2="53.34" y2="73.66" width="0.1524" layer="91"/>
-<label x="45.72" y="73.66" size="1.778" layer="95"/>
+<label x="53.34" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="HX1" gate="G$1" pin="BASE"/>
 </segment>
 </net>
@@ -2982,12 +3253,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="U$3" gate="G$1" pin="2"/>
 <wire x1="15.24" y1="15.24" x2="20.32" y2="15.24" width="0.1524" layer="91"/>
-<label x="20.32" y="15.24" size="1.778" layer="95"/>
+<label x="20.32" y="15.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R19" gate="G$1" pin="2"/>
 <wire x1="7.62" y1="38.1" x2="7.62" y2="40.64" width="0.1524" layer="91"/>
-<label x="7.62" y="40.64" size="1.778" layer="95"/>
+<label x="7.62" y="40.64" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -3036,12 +3307,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="U$7" gate="G$1" pin="2"/>
 <wire x1="134.62" y1="12.7" x2="139.7" y2="12.7" width="0.1524" layer="91"/>
-<label x="139.7" y="12.7" size="1.778" layer="95"/>
+<label x="139.7" y="12.7" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R21" gate="G$1" pin="2"/>
 <wire x1="127" y1="35.56" x2="127" y2="38.1" width="0.1524" layer="91"/>
-<label x="127" y="38.1" size="1.778" layer="95"/>
+<label x="127" y="38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -3099,12 +3370,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="U$10" gate="G$1" pin="2"/>
 <wire x1="254" y1="12.7" x2="259.08" y2="12.7" width="0.1524" layer="91"/>
-<label x="259.08" y="12.7" size="1.778" layer="95"/>
+<label x="259.08" y="12.7" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R23" gate="G$1" pin="2"/>
 <wire x1="246.38" y1="35.56" x2="246.38" y2="38.1" width="0.1524" layer="91"/>
-<label x="246.38" y="38.1" size="1.778" layer="95"/>
+<label x="246.38" y="38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -3162,12 +3433,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="U$13" gate="G$1" pin="2"/>
 <wire x1="368.3" y1="12.7" x2="373.38" y2="12.7" width="0.1524" layer="91"/>
-<label x="373.38" y="12.7" size="1.778" layer="95"/>
+<label x="373.38" y="12.7" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R25" gate="G$1" pin="2"/>
 <wire x1="360.68" y1="35.56" x2="360.68" y2="38.1" width="0.1524" layer="91"/>
-<label x="360.68" y="38.1" size="1.778" layer="95"/>
+<label x="360.68" y="38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -3264,13 +3535,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="VIN" class="0">
 <segment>
 <wire x1="251.46" y1="144.78" x2="243.84" y2="144.78" width="0.1524" layer="91"/>
-<label x="238.76" y="144.78" size="1.778" layer="95"/>
+<label x="243.84" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="DXL" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="REG" gate="G$1" pin="IN"/>
 <wire x1="292.1" y1="134.62" x2="289.56" y2="134.62" width="0.1524" layer="91"/>
-<label x="284.48" y="134.62" size="1.778" layer="95"/>
+<label x="289.56" y="134.62" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="RS+" class="0">
@@ -3299,24 +3570,24 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="SCK1" class="0">
 <segment>
 <wire x1="96.52" y1="50.8" x2="99.06" y2="50.8" width="0.1524" layer="91"/>
-<label x="99.06" y="50.8" size="1.778" layer="95"/>
+<label x="99.06" y="50.8" size="1.27" layer="95" xref="yes"/>
 <pinref part="HX1" gate="G$1" pin="SCK"/>
 </segment>
 <segment>
 <wire x1="96.52" y1="180.34" x2="99.06" y2="180.34" width="0.1524" layer="91"/>
-<label x="99.06" y="180.34" size="1.778" layer="95"/>
+<label x="99.06" y="180.34" size="1.27" layer="95" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="PC0(ADC0)"/>
 </segment>
 </net>
 <net name="DOUT1" class="0">
 <segment>
 <wire x1="96.52" y1="48.26" x2="99.06" y2="48.26" width="0.1524" layer="91"/>
-<label x="99.06" y="48.26" size="1.778" layer="95"/>
+<label x="99.06" y="48.26" size="1.27" layer="95" xref="yes"/>
 <pinref part="HX1" gate="G$1" pin="DOUT"/>
 </segment>
 <segment>
 <wire x1="96.52" y1="177.8" x2="99.06" y2="177.8" width="0.1524" layer="91"/>
-<label x="99.06" y="177.8" size="1.778" layer="95"/>
+<label x="99.06" y="177.8" size="1.27" layer="95" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="PC1(ADC1)"/>
 </segment>
 </net>
@@ -3324,11 +3595,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="HX2" gate="G$1" pin="SCK"/>
 <wire x1="215.9" y1="48.26" x2="218.44" y2="48.26" width="0.1524" layer="91"/>
-<label x="218.44" y="48.26" size="1.778" layer="95"/>
+<label x="218.44" y="48.26" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="96.52" y1="175.26" x2="99.06" y2="175.26" width="0.1524" layer="91"/>
-<label x="99.06" y="175.26" size="1.778" layer="95"/>
+<label x="99.06" y="175.26" size="1.27" layer="95" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="PC2(ADC2)"/>
 </segment>
 </net>
@@ -3336,11 +3607,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="HX2" gate="G$1" pin="DOUT"/>
 <wire x1="215.9" y1="45.72" x2="218.44" y2="45.72" width="0.1524" layer="91"/>
-<label x="218.44" y="45.72" size="1.778" layer="95"/>
+<label x="218.44" y="45.72" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="96.52" y1="172.72" x2="99.06" y2="172.72" width="0.1524" layer="91"/>
-<label x="99.06" y="172.72" size="1.778" layer="95"/>
+<label x="99.06" y="172.72" size="1.27" layer="95" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="PC3(ADC3)"/>
 </segment>
 </net>
@@ -3348,11 +3619,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="HX3" gate="G$1" pin="SCK"/>
 <wire x1="335.28" y1="48.26" x2="337.82" y2="48.26" width="0.1524" layer="91"/>
-<label x="337.82" y="48.26" size="1.778" layer="95"/>
+<label x="337.82" y="48.26" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="96.52" y1="149.86" x2="99.06" y2="149.86" width="0.1524" layer="91"/>
-<label x="99.06" y="149.86" size="1.778" layer="95"/>
+<label x="99.06" y="149.86" size="1.27" layer="95" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="PD3(INT1)"/>
 </segment>
 </net>
@@ -3360,11 +3631,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="HX3" gate="G$1" pin="DOUT"/>
 <wire x1="335.28" y1="45.72" x2="337.82" y2="45.72" width="0.1524" layer="91"/>
-<label x="337.82" y="45.72" size="1.778" layer="95"/>
+<label x="337.82" y="45.72" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="96.52" y1="147.32" x2="99.06" y2="147.32" width="0.1524" layer="91"/>
-<label x="99.06" y="147.32" size="1.778" layer="95"/>
+<label x="99.06" y="147.32" size="1.27" layer="95" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="PD4(XCK/T0)"/>
 </segment>
 </net>
@@ -3376,7 +3647,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <wire x1="233.68" y1="142.24" x2="231.14" y2="142.24" width="0.1524" layer="91"/>
-<label x="226.06" y="142.24" size="1.778" layer="95"/>
+<label x="231.14" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="R14" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -3388,7 +3659,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <wire x1="233.68" y1="139.7" x2="231.14" y2="139.7" width="0.1524" layer="91"/>
-<label x="226.06" y="139.7" size="1.778" layer="95"/>
+<label x="231.14" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="R15" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -3407,7 +3678,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <wire x1="96.52" y1="152.4" x2="99.06" y2="152.4" width="0.1524" layer="91"/>
-<label x="99.06" y="152.4" size="1.778" layer="95"/>
+<label x="99.06" y="152.4" size="1.27" layer="95" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="PD2(INT0)"/>
 </segment>
 </net>
@@ -3419,7 +3690,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <wire x1="96.52" y1="154.94" x2="99.06" y2="154.94" width="0.1524" layer="91"/>
-<label x="99.06" y="154.94" size="1.778" layer="95"/>
+<label x="99.06" y="154.94" size="1.27" layer="95" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="PD1(TXD)"/>
 </segment>
 </net>
@@ -3433,7 +3704,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <wire x1="96.52" y1="157.48" x2="99.06" y2="157.48" width="0.1524" layer="91"/>
-<label x="99.06" y="157.48" size="1.778" layer="95"/>
+<label x="99.06" y="157.48" size="1.27" layer="95" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="PD0(RXD)"/>
 </segment>
 </net>
@@ -3441,73 +3712,73 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="U$6" gate="G$1" pin="B"/>
 <wire x1="147.32" y1="73.66" x2="144.78" y2="73.66" width="0.1524" layer="91"/>
-<label x="139.7" y="73.66" size="1.778" layer="95"/>
+<label x="144.78" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="HX2" gate="G$1" pin="BASE"/>
 <wire x1="175.26" y1="71.12" x2="172.72" y2="71.12" width="0.1524" layer="91"/>
-<label x="165.1" y="71.12" size="1.778" layer="95"/>
+<label x="172.72" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="3BASE" class="0">
 <segment>
 <pinref part="U$9" gate="G$1" pin="B"/>
 <wire x1="266.7" y1="73.66" x2="264.16" y2="73.66" width="0.1524" layer="91"/>
-<label x="259.08" y="73.66" size="1.778" layer="95"/>
+<label x="264.16" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="HX3" gate="G$1" pin="BASE"/>
 <wire x1="294.64" y1="71.12" x2="292.1" y2="71.12" width="0.1524" layer="91"/>
-<label x="284.48" y="71.12" size="1.778" layer="95"/>
+<label x="292.1" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="4BASE" class="0">
 <segment>
 <pinref part="U$12" gate="G$1" pin="B"/>
 <wire x1="381" y1="73.66" x2="378.46" y2="73.66" width="0.1524" layer="91"/>
-<label x="373.38" y="73.66" size="1.778" layer="95"/>
+<label x="378.46" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="HX4" gate="G$1" pin="BASE"/>
 <wire x1="408.94" y1="71.12" x2="406.4" y2="71.12" width="0.1524" layer="91"/>
-<label x="398.78" y="71.12" size="1.778" layer="95"/>
+<label x="406.4" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="RESET" class="0">
 <segment>
 <wire x1="48.26" y1="180.34" x2="43.18" y2="180.34" width="0.1524" layer="91"/>
-<label x="35.56" y="177.8" size="1.778" layer="95"/>
+<label x="43.18" y="180.34" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="R27" gate="G$1" pin="1"/>
 <pinref part="U2" gate="G$1" pin="PC6(/RESET)"/>
 </segment>
 <segment>
 <pinref part="ISP" gate="G$1" pin="5"/>
 <wire x1="60.96" y1="106.68" x2="58.42" y2="106.68" width="0.1524" layer="91"/>
-<label x="50.8" y="106.68" size="1.778" layer="95"/>
+<label x="58.42" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SCK" class="0">
 <segment>
 <wire x1="96.52" y1="121.92" x2="101.6" y2="121.92" width="0.1524" layer="91"/>
-<label x="101.6" y="121.92" size="1.778" layer="95"/>
+<label x="101.6" y="121.92" size="1.27" layer="95" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="PB5(SCK)"/>
 </segment>
 <segment>
 <pinref part="ISP" gate="G$1" pin="3"/>
 <wire x1="60.96" y1="109.22" x2="58.42" y2="109.22" width="0.1524" layer="91"/>
-<label x="50.8" y="109.22" size="1.778" layer="95"/>
+<label x="58.42" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
 <segment>
 <wire x1="96.52" y1="127" x2="101.6" y2="127" width="0.1524" layer="91"/>
-<label x="101.6" y="127" size="1.778" layer="95"/>
+<label x="101.6" y="127" size="1.27" layer="95" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="PB3(MOSI/OC2)"/>
 </segment>
 <segment>
 <pinref part="ISP" gate="G$1" pin="4"/>
 <wire x1="88.9" y1="109.22" x2="91.44" y2="109.22" width="0.1524" layer="91"/>
-<label x="91.44" y="109.22" size="1.778" layer="95"/>
+<label x="91.44" y="109.22" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -3535,26 +3806,26 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="MISO" class="0">
 <segment>
 <wire x1="96.52" y1="124.46" x2="101.6" y2="124.46" width="0.1524" layer="91"/>
-<label x="101.6" y="124.46" size="1.778" layer="95"/>
+<label x="101.6" y="124.46" size="1.27" layer="95" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="PB4(MISO)"/>
 </segment>
 <segment>
 <pinref part="ISP" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="111.76" x2="58.42" y2="111.76" width="0.1524" layer="91"/>
-<label x="50.8" y="111.76" size="1.778" layer="95"/>
+<label x="58.42" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="IMU_SCL" class="0">
 <segment>
 <pinref part="IMU" gate="G$1" pin="SCL"/>
 <wire x1="414.02" y1="142.24" x2="406.4" y2="142.24" width="0.1524" layer="91"/>
-<label x="396.24" y="142.24" size="1.778" layer="95"/>
+<label x="406.4" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="96.52" y1="167.64" x2="109.22" y2="167.64" width="0.1524" layer="91"/>
-<label x="116.84" y="167.64" size="1.778" layer="95"/>
+<label x="116.84" y="167.64" size="1.27" layer="95" xref="yes"/>
 <pinref part="R28" gate="G$1" pin="1"/>
-<wire x1="109.22" y1="167.64" x2="114.3" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="167.64" x2="116.84" y2="167.64" width="0.1524" layer="91"/>
 <junction x="109.22" y="167.64"/>
 <pinref part="U2" gate="G$1" pin="PC5(ADC5/SCL)"/>
 </segment>
@@ -3563,13 +3834,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="IMU" gate="G$1" pin="SDA"/>
 <wire x1="414.02" y1="139.7" x2="406.4" y2="139.7" width="0.1524" layer="91"/>
-<label x="396.24" y="139.7" size="1.778" layer="95"/>
+<label x="406.4" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="96.52" y1="170.18" x2="111.76" y2="170.18" width="0.1524" layer="91"/>
-<label x="116.84" y="170.18" size="1.778" layer="95"/>
+<label x="116.84" y="170.18" size="1.27" layer="95" xref="yes"/>
 <pinref part="R29" gate="G$1" pin="1"/>
-<wire x1="111.76" y1="170.18" x2="114.3" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="170.18" x2="116.84" y2="170.18" width="0.1524" layer="91"/>
 <junction x="111.76" y="170.18"/>
 <pinref part="U2" gate="G$1" pin="PC4(ADC4/SDA)"/>
 </segment>
@@ -3578,17 +3849,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="IMU" gate="G$1" pin="3.3"/>
 <wire x1="414.02" y1="147.32" x2="406.4" y2="147.32" width="0.1524" layer="91"/>
-<label x="401.32" y="147.32" size="1.778" layer="95"/>
+<label x="406.4" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R29" gate="G$1" pin="2"/>
 <wire x1="111.76" y1="180.34" x2="111.76" y2="182.88" width="0.1524" layer="91"/>
-<label x="111.76" y="182.88" size="1.778" layer="95" rot="R90"/>
+<label x="111.76" y="182.88" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R28" gate="G$1" pin="2"/>
 <wire x1="109.22" y1="177.8" x2="109.22" y2="182.88" width="0.1524" layer="91"/>
-<label x="109.22" y="182.88" size="1.778" layer="95" rot="R90"/>
+<label x="109.22" y="182.88" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 </nets>
