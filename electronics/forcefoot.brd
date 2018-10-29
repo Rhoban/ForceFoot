@@ -769,42 +769,114 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U$1" library="rhoban" package="SOT-23" value="8550-PNP" x="2.54" y="6.68" rot="R90"/>
-<element name="C1" library="SparkFun-Passives" package="0805" value="1uF" x="6.55" y="17.41"/>
-<element name="C2" library="SparkFun-Passives" package="0805" value="1uF" x="9.35" y="7.75"/>
-<element name="C4" library="SparkFun-Passives" package="0805" value="0.1uF" x="12.33" y="7.85"/>
-<element name="R3" library="SparkFun-Passives" package="0805" value="1k" x="11.465" y="5.11" rot="R270"/>
-<element name="U$3" library="rhoban" package="4P1.5" value="CONNEC_1X041.5" x="6.68" y="1.6"/>
-<element name="HX2" library="rhoban" package="SO16" value="HX711SO16" x="22.26" y="12.63" rot="R90"/>
-<element name="U$6" library="rhoban" package="SOT-23" value="8550-PNP" x="15.58" y="6.88" rot="R90"/>
-<element name="C5" library="SparkFun-Passives" package="0805" value="1uF" x="19.63" y="17.39"/>
-<element name="C6" library="SparkFun-Passives" package="0805" value="1uF" x="22.16" y="7.7"/>
-<element name="C7" library="SparkFun-Passives" package="0805" value="1uF" x="14.09" y="2.15" rot="R90"/>
-<element name="R4" library="SparkFun-Passives" package="0805" value="20k" x="19.13" y="7.81" rot="R180"/>
-<element name="R5" library="SparkFun-Passives" package="0805" value="8.2k" x="20.74" y="5.61" rot="R180"/>
-<element name="C8" library="SparkFun-Passives" package="0805" value="0.1uF" x="25.07" y="7.75"/>
-<element name="R6" library="SparkFun-Passives" package="0805" value="1k" x="24.07" y="5.01" rot="R270"/>
-<element name="U$7" library="rhoban" package="4P1.5" value="CONNEC_1X041.5" x="18.92" y="1.8"/>
-<element name="HX3" library="rhoban" package="SO16" value="HX711SO16" x="40.46" y="12.91" rot="R90"/>
-<element name="U$9" library="rhoban" package="SOT-23" value="8550-PNP" x="34.95" y="7.07" rot="R90"/>
-<element name="C9" library="SparkFun-Passives" package="0805" value="1uF" x="38.14" y="17.44"/>
-<element name="C10" library="SparkFun-Passives" package="0805" value="1uF" x="41.76" y="7.93"/>
-<element name="C11" library="SparkFun-Passives" package="0805" value="1uF" x="34.16" y="2.05" rot="R90"/>
-<element name="R7" library="SparkFun-Passives" package="0805" value="20k" x="38.73" y="7.86" rot="R180"/>
-<element name="R8" library="SparkFun-Passives" package="0805" value="8.2k" x="40.16" y="5.87" rot="R180"/>
-<element name="C12" library="SparkFun-Passives" package="0805" value="0.1uF" x="44.76" y="8.04"/>
-<element name="R9" library="SparkFun-Passives" package="0805" value="1k" x="44.23" y="5.45" rot="R270"/>
-<element name="U$10" library="rhoban" package="4P1.5" value="CONNEC_1X041.5" x="39.82" y="1.8"/>
-<element name="HX4" library="rhoban" package="SO16" value="HX711SO16" x="53.73" y="13.11" rot="R90"/>
-<element name="U$12" library="rhoban" package="SOT-23" value="8550-PNP" x="48.12" y="6.87" rot="R90"/>
-<element name="C13" library="SparkFun-Passives" package="0805" value="1uF" x="51.14" y="17.77"/>
-<element name="C14" library="SparkFun-Passives" package="0805" value="1uF" x="54.96" y="8.36"/>
-<element name="C15" library="SparkFun-Passives" package="0805" value="1uF" x="46.93" y="2.65" rot="R90"/>
-<element name="R10" library="SparkFun-Passives" package="0805" value="20k" x="51.83" y="8.43" rot="R180"/>
-<element name="R11" library="SparkFun-Passives" package="0805" value="8.2k" x="53.66" y="6.24" rot="R180"/>
-<element name="C16" library="SparkFun-Passives" package="0805" value="0.1uF" x="57.76" y="8.37"/>
-<element name="R12" library="SparkFun-Passives" package="0805" value="1k" x="58.26" y="5.55" rot="R270"/>
-<element name="U$13" library="rhoban" package="4P1.5" value="CONNEC_1X041.5" x="52.72" y="1.8"/>
+<element name="U$1" library="rhoban" package="SOT-23" value="8550-PNP" x="2.54" y="6.68" rot="R90">
+<attribute name="FARNELL" value="1095136" x="2.54" y="6.68" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C1" library="SparkFun-Passives" package="0805" value="1uF" x="6.55" y="17.41">
+<attribute name="FARNELL" value="2525136RL" x="6.55" y="17.41" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C2" library="SparkFun-Passives" package="0805" value="1uF" x="9.35" y="7.75">
+<attribute name="FARNELL" value="2525136RL" x="9.35" y="7.75" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C4" library="SparkFun-Passives" package="0805" value="0.1uF" x="12.33" y="7.85">
+<attribute name="FARNELL" value="2688486RL" x="12.33" y="7.85" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R3" library="SparkFun-Passives" package="0805" value="1k" x="11.465" y="5.11" rot="R270">
+<attribute name="FARNELL" value="2074332RL" x="11.465" y="5.11" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="U$3" library="rhoban" package="4P1.5" value="CONNEC_1X041.5" x="6.68" y="1.6">
+<attribute name="FARNELL" value="9491791" x="6.68" y="1.6" size="1.778" layer="27" display="off"/>
+</element>
+<element name="HX2" library="rhoban" package="SO16" value="HX711SO16" x="22.26" y="12.63" rot="R90">
+<attribute name="FARNELL" value="HX711" x="22.26" y="12.63" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="U$6" library="rhoban" package="SOT-23" value="8550-PNP" x="15.58" y="6.88" rot="R90">
+<attribute name="FARNELL" value="1095136" x="15.58" y="6.88" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C5" library="SparkFun-Passives" package="0805" value="1uF" x="19.63" y="17.39">
+<attribute name="FARNELL" value="2525136RL" x="19.63" y="17.39" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C6" library="SparkFun-Passives" package="0805" value="1uF" x="22.16" y="7.7">
+<attribute name="FARNELL" value="2525136RL" x="22.16" y="7.7" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C7" library="SparkFun-Passives" package="0805" value="1uF" x="14.09" y="2.15" rot="R90">
+<attribute name="FARNELL" value="2525136RL" x="14.09" y="2.15" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R4" library="SparkFun-Passives" package="0805" value="20k" x="19.13" y="7.81" rot="R180">
+<attribute name="FARNELL" value="2074395" x="19.13" y="7.81" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="R5" library="SparkFun-Passives" package="0805" value="8.2k" x="20.74" y="5.61" rot="R180">
+<attribute name="FARNELL" value="2074518" x="20.74" y="5.61" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="C8" library="SparkFun-Passives" package="0805" value="0.1uF" x="25.07" y="7.75">
+<attribute name="FARNELL" value="2688486RL" x="25.07" y="7.75" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R6" library="SparkFun-Passives" package="0805" value="1k" x="24.07" y="5.01" rot="R270">
+<attribute name="FARNELL" value="2074332RL" x="24.07" y="5.01" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="U$7" library="rhoban" package="4P1.5" value="CONNEC_1X041.5" x="18.92" y="1.8">
+<attribute name="FARNELL" value="9491791" x="18.92" y="1.8" size="1.778" layer="27" display="off"/>
+</element>
+<element name="HX3" library="rhoban" package="SO16" value="HX711SO16" x="40.46" y="12.91" rot="R90">
+<attribute name="FARNELL" value="HX711" x="40.46" y="12.91" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="U$9" library="rhoban" package="SOT-23" value="8550-PNP" x="34.95" y="7.07" rot="R90">
+<attribute name="FARNELL" value="1095136" x="34.95" y="7.07" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C9" library="SparkFun-Passives" package="0805" value="1uF" x="38.14" y="17.44">
+<attribute name="FARNELL" value="2525136RL" x="38.14" y="17.44" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C10" library="SparkFun-Passives" package="0805" value="1uF" x="41.76" y="7.93">
+<attribute name="FARNELL" value="2525136RL" x="41.76" y="7.93" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C11" library="SparkFun-Passives" package="0805" value="1uF" x="34.16" y="2.05" rot="R90">
+<attribute name="FARNELL" value="2525136RL" x="34.16" y="2.05" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R7" library="SparkFun-Passives" package="0805" value="20k" x="38.73" y="7.86" rot="R180">
+<attribute name="FARNELL" value="2074395" x="38.73" y="7.86" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="R8" library="SparkFun-Passives" package="0805" value="8.2k" x="40.16" y="5.87" rot="R180">
+<attribute name="FARNELL" value="2074518" x="40.16" y="5.87" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="C12" library="SparkFun-Passives" package="0805" value="0.1uF" x="44.76" y="8.04">
+<attribute name="FARNELL" value="2688486RL" x="44.76" y="8.04" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R9" library="SparkFun-Passives" package="0805" value="1k" x="44.23" y="5.45" rot="R270">
+<attribute name="FARNELL" value="2074332RL" x="44.23" y="5.45" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="U$10" library="rhoban" package="4P1.5" value="CONNEC_1X041.5" x="39.82" y="1.8">
+<attribute name="FARNELL" value="9491791" x="39.82" y="1.8" size="1.778" layer="27" display="off"/>
+</element>
+<element name="HX4" library="rhoban" package="SO16" value="HX711SO16" x="53.73" y="13.11" rot="R90">
+<attribute name="FARNELL" value="HX711" x="53.73" y="13.11" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="U$12" library="rhoban" package="SOT-23" value="8550-PNP" x="48.12" y="6.87" rot="R90">
+<attribute name="FARNELL" value="1095136" x="48.12" y="6.87" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C13" library="SparkFun-Passives" package="0805" value="1uF" x="51.14" y="17.77">
+<attribute name="FARNELL" value="2525136RL" x="51.14" y="17.77" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C14" library="SparkFun-Passives" package="0805" value="1uF" x="54.96" y="8.36">
+<attribute name="FARNELL" value="2525136RL" x="54.96" y="8.36" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C15" library="SparkFun-Passives" package="0805" value="1uF" x="46.93" y="2.65" rot="R90">
+<attribute name="FARNELL" value="2525136RL" x="46.93" y="2.65" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R10" library="SparkFun-Passives" package="0805" value="20k" x="51.83" y="8.43" rot="R180">
+<attribute name="FARNELL" value="2074395" x="51.83" y="8.43" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="R11" library="SparkFun-Passives" package="0805" value="8.2k" x="53.66" y="6.24" rot="R180">
+<attribute name="FARNELL" value="2074518" x="53.66" y="6.24" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="C16" library="SparkFun-Passives" package="0805" value="0.1uF" x="57.76" y="8.37">
+<attribute name="FARNELL" value="2688486RL" x="57.76" y="8.37" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R12" library="SparkFun-Passives" package="0805" value="1k" x="58.26" y="5.55" rot="R270">
+<attribute name="FARNELL" value="2074332RL" x="58.26" y="5.55" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="U$13" library="rhoban" package="4P1.5" value="CONNEC_1X041.5" x="52.72" y="1.8">
+<attribute name="FARNELL" value="9491791" x="52.72" y="1.8" size="1.778" layer="27" display="off"/>
+</element>
 <element name="MAX485" library="rhoban" package="SO8" value="MAX485" x="7.4" y="28.2">
 <attribute name="PACKAGE" value="SOIC-8" x="7.4" y="28.2" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="68K4798" x="7.4" y="28.2" size="1.778" layer="27" display="off"/>
@@ -814,41 +886,104 @@ design rules under a new name.</description>
 <attribute name="SUPPLIER" value="Maxim" x="7.4" y="28.2" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="max485.pdf" x="7.4" y="28.2" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="1379973" x="7.4" y="28.2" size="1.778" layer="27" display="off"/>
+<attribute name="FARNELL" value="1564306" x="7.4" y="28.2" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R13" library="rhoban" package="R0805" value="3k" x="7.6" y="24.2"/>
-<element name="R16" library="SparkFun-Passives" package="0805" value="20k" x="6.189684375" y="7.755465625" rot="R180"/>
-<element name="R17" library="SparkFun-Passives" package="0805" value="8.2k" x="7.264090625" y="5.71751875" rot="R180"/>
-<element name="R1" library="rhoban" package="R0805" value="3k" x="2.4" y="28.2" rot="R90"/>
-<element name="R2" library="rhoban" package="R0805" value="3k" x="6.6" y="33.2" rot="R180"/>
-<element name="R18" library="rhoban" package="R0805" value="3k" x="11" y="33.2" rot="R180"/>
-<element name="R14" library="rhoban" package="R0805" value="22" x="13.2" y="27.2" rot="R180"/>
-<element name="R15" library="rhoban" package="R0805" value="22" x="13.2" y="29.4" rot="R180"/>
-<element name="R19" library="SparkFun-Passives" package="0805" value="3K" x="5.9" y="3.9"/>
-<element name="R20" library="SparkFun-Passives" package="0805" value="3K" x="3.6" y="2.4" rot="R90"/>
-<element name="R21" library="SparkFun-Passives" package="0805" value="3K" x="18.2" y="4"/>
-<element name="R22" library="SparkFun-Passives" package="0805" value="3K" x="16" y="2.1" rot="R90"/>
-<element name="R23" library="SparkFun-Passives" package="0805" value="3K" x="38.2" y="4.2"/>
-<element name="R24" library="SparkFun-Passives" package="0805" value="3K" x="36.2" y="2" rot="R90"/>
-<element name="R25" library="SparkFun-Passives" package="0805" value="3K" x="51.6" y="4.2"/>
-<element name="R26" library="SparkFun-Passives" package="0805" value="3K" x="49" y="2.6" rot="R90"/>
-<element name="U$2" library="rhoban" package="PANASONIC_D" value="47uF" x="46.8" y="27.6" rot="R90"/>
-<element name="U$4" library="rhoban" package="PANASONIC_D8" value="220uF" x="12.4" y="39.4" rot="R180"/>
-<element name="XTAL1" library="rhoban" package="HC49US" value="" x="18.4" y="25.4" rot="R90"/>
-<element name="C17" library="rhoban" package="C0603" value="22" x="21.8" y="27.2" rot="R90"/>
-<element name="C18" library="rhoban" package="C0603" value="22" x="21.8" y="23.8" rot="R270"/>
-<element name="R27" library="SparkFun-Passives" package="0805" value="10k" x="38.2" y="27.2" rot="R90"/>
-<element name="ISP" library="rhoban" package="CONNEC_2X03" value="CONNEC_2X03" x="47.2" y="38.6" rot="R180"/>
-<element name="REG" library="rhoban" package="TRACOPOWER" value="REG_5V" x="51.8" y="33.6" rot="R270"/>
-<element name="DXL" library="rhoban" package="CONNEC_485" value="CONNEC_1X04_485" x="34.6" y="43" rot="R180"/>
+<element name="R13" library="rhoban" package="R0805" value="3k" x="7.6" y="24.2">
+<attribute name="FARNELL" value="2074431" x="7.6" y="24.2" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R16" library="SparkFun-Passives" package="0805" value="20k" x="6.189684375" y="7.755465625" rot="R180">
+<attribute name="FARNELL" value="2074395" x="6.189684375" y="7.755465625" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="R17" library="SparkFun-Passives" package="0805" value="8.2k" x="7.264090625" y="5.71751875" rot="R180">
+<attribute name="FARNELL" value="2074518" x="7.264090625" y="5.71751875" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="R1" library="rhoban" package="R0805" value="3k" x="2.4" y="28.2" rot="R90">
+<attribute name="FARNELL" value="2074431" x="2.4" y="28.2" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R2" library="rhoban" package="R0805" value="3k" x="6.6" y="33.2" rot="R180">
+<attribute name="FARNELL" value="2074431" x="6.6" y="33.2" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="R18" library="rhoban" package="R0805" value="3k" x="11" y="33.2" rot="R180">
+<attribute name="FARNELL" value="2074431" x="11" y="33.2" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="R14" library="rhoban" package="R0805" value="22" x="13.2" y="27.2" rot="R180">
+<attribute name="FARNELL" value="2446926" x="13.2" y="27.2" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="R15" library="rhoban" package="R0805" value="22" x="13.2" y="29.4" rot="R180">
+<attribute name="FARNELL" value="2446926" x="13.2" y="29.4" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="R19" library="SparkFun-Passives" package="0805" value="3K" x="5.9" y="3.9">
+<attribute name="FARNELL" value="2074431" x="5.9" y="3.9" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R20" library="SparkFun-Passives" package="0805" value="3K" x="3.6" y="2.4" rot="R90">
+<attribute name="FARNELL" value="2074431" x="3.6" y="2.4" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R21" library="SparkFun-Passives" package="0805" value="3K" x="18.2" y="4">
+<attribute name="FARNELL" value="2074431" x="18.2" y="4" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R22" library="SparkFun-Passives" package="0805" value="3K" x="16" y="2.1" rot="R90">
+<attribute name="FARNELL" value="2074431" x="16" y="2.1" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R23" library="SparkFun-Passives" package="0805" value="3K" x="38.2" y="4.2">
+<attribute name="FARNELL" value="2074431" x="38.2" y="4.2" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R24" library="SparkFun-Passives" package="0805" value="3K" x="36.2" y="2" rot="R90">
+<attribute name="FARNELL" value="2074431" x="36.2" y="2" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R25" library="SparkFun-Passives" package="0805" value="3K" x="51.6" y="4.2">
+<attribute name="FARNELL" value="2074431" x="51.6" y="4.2" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R26" library="SparkFun-Passives" package="0805" value="3K" x="49" y="2.6" rot="R90">
+<attribute name="FARNELL" value="2074431" x="49" y="2.6" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="U$2" library="rhoban" package="PANASONIC_D" value="47uF" x="46.8" y="27.6" rot="R90">
+<attribute name="FARNELL" value="9696946" x="46.8" y="27.6" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="U$4" library="rhoban" package="PANASONIC_D8" value="220uF" x="12.4" y="39.4" rot="R180">
+<attribute name="FARNELL" value="1850103" x="12.4" y="39.4" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="XTAL1" library="rhoban" package="HC49US" value="" x="18.4" y="25.4" rot="R90">
+<attribute name="FARNELL" value="7940506" x="18.4" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C17" library="rhoban" package="C0603" value="22" x="21.8" y="27.2" rot="R90">
+<attribute name="FARNELL" value="1759489RL" x="21.8" y="27.2" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C18" library="rhoban" package="C0603" value="22" x="21.8" y="23.8" rot="R270">
+<attribute name="FARNELL" value="1759489RL" x="21.8" y="23.8" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="R27" library="SparkFun-Passives" package="0805" value="10k" x="38.2" y="27.2" rot="R90">
+<attribute name="FARNELL" value="2074334RL" x="38.2" y="27.2" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="ISP" library="rhoban" package="CONNEC_2X03" value="CONNEC_2X03" x="47.2" y="38.6" rot="R180">
+<attribute name="FARNELL" value="1593440" x="47.2" y="38.6" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="REG" library="rhoban" package="TRACOPOWER" value="REG_5V" x="51.8" y="33.6" rot="R270">
+<attribute name="FARNELL" value="1696320" x="51.8" y="33.6" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="DXL" library="rhoban" package="CONNEC_485" value="CONNEC_1X04_485" x="34.6" y="43" rot="R180">
+<attribute name="FARNELL" value="1104204 OR 9979620" x="34.6" y="43" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="U$11" library="SparkFun-Electromechanical" package="STAND-OFF" value="" x="3.29684375" y="40.111128125"/>
 <element name="U$14" library="SparkFun-Electromechanical" package="STAND-OFF" value="" x="56.49684375" y="39.711128125"/>
 <element name="U$16" library="SparkFun-Electromechanical" package="STAND-OFF" value="" x="29.09684375" y="3.111128125"/>
-<element name="IMU" library="rhoban" package="GY-85" value="GY-85" x="23" y="34.6" rot="R270"/>
-<element name="R28" library="SparkFun-Passives" package="0805" value="3K" x="40.6" y="32.2"/>
-<element name="R29" library="SparkFun-Passives" package="0805" value="3K" x="40.6" y="30.8"/>
-<element name="HX1" library="rhoban" package="SO16" value="HX711SO16" x="9" y="12.6" rot="R90"/>
-<element name="C3" library="SparkFun-Passives" package="0805" value="1uF" x="1.6" y="2.4" rot="R90"/>
-<element name="U2" library="SparkFun-DigitalIC" package="TQFP32-08" value="ATMEGA168" x="30.2" y="25.5"/>
+<element name="IMU" library="rhoban" package="GY-85" value="GY-85" x="23" y="34.6" rot="R270">
+<attribute name="FARNELL" value="-" x="23" y="34.6" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="R28" library="SparkFun-Passives" package="0805" value="3K" x="40.6" y="32.2">
+<attribute name="FARNELL" value="2074431" x="40.6" y="32.2" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R29" library="SparkFun-Passives" package="0805" value="3K" x="40.6" y="30.8">
+<attribute name="FARNELL" value="2074431" x="40.6" y="30.8" size="1.778" layer="27" display="off"/>
+</element>
+<element name="HX1" library="rhoban" package="SO16" value="HX711SO16" x="9" y="12.6" rot="R90">
+<attribute name="FARNELL" value="HX711" x="9" y="12.6" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C3" library="SparkFun-Passives" package="0805" value="1uF" x="1.6" y="2.4" rot="R90">
+<attribute name="FARNELL" value="2525136RL" x="1.6" y="2.4" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="U2" library="SparkFun-DigitalIC" package="TQFP32-08" value="ATMEGA168" x="30.2" y="25.5">
+<attribute name="FARNELL" value="2523203" x="30.2" y="25.5" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="SCK4">
