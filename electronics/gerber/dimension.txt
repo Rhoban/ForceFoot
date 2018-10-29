@@ -1,1 +1,3 @@
 The board is 60 x 44 mm
+200 SMT
+30 TH
