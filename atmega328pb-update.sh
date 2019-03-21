@@ -6,3 +6,4 @@ apt-get update
 cp /etc/avrdude.conf /etc/avrdude_save.conf
 cp misc/avrdude.conf /etc/
 cp misc/*.h /usr/lib/avr/include/avr/
+cp misc/crtatmega328pb.o /usr/lib/avr/lib/avr5/
