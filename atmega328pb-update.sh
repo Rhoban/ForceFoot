@@ -5,4 +5,4 @@ rm /etc/apt/sources.list.d/tmp.list
 apt-get update
 cp /etc/avrdude.conf /etc/avrdude_save.conf
 cp misc/avrdude.conf /etc/
-cp misc/*.h /usr/lib/avr/include/
+cp misc/*.h /usr/lib/avr/include/avr/
