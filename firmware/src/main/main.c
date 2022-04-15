@@ -83,7 +83,6 @@ int main (void)
     hx711_init();
 
     led_init();
-    led_set(0);
 
     while (1) {
         // Reading the balances
