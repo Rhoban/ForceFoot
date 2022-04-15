@@ -23,7 +23,7 @@ struct dxl_packet {
         ui8 error;
     };
     ui8 parameter_nb;
-    ui8 parameters[128];
+    ui8 parameters[256];
 };
 
 // Enable bufferization ?

@@ -179,8 +179,12 @@ void dxl_push_byte(ui8 b) {
             }
             break;
         case 2:
-            led_set(1);
             current_command.id = b;
+            if (b == 0xFF) {
+              // If we get another 0xFF, we might be shifted and we should consider it 
+              // as an extra header
+              dxl_state -= 1;
+            }
             break;
         case 3:
             current_command.parameter_nb = b - 2;
