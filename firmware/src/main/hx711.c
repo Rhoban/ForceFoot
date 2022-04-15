@@ -22,8 +22,13 @@ void hx711_clock_set(int index, int en)
             if (!en) PORTD &= ~_BV(PD3);
             break;
         case 3:
+#if defined(__AVR_ATmega328PB__)
             if (en) PORTE |= _BV(PE2);
             if (!en) PORTE &= ~_BV(PE2);
+#else
+            if (en) PORTB |= _BV(PB0);
+            if (!en) PORTB &= ~_BV(PB0);
+#endif
             break;
     }
 }
@@ -41,7 +46,11 @@ int hx711_read(int index)
             return ((PIND&_BV(PD4))!=0);
             break;
         case 3:
+            #if defined(__AVR_ATmega328PB__)
             return ((PINE&_BV(PE3))!=0);
+            #else
+            return ((PINB&_BV(PB1))!=0);
+            #endif
             break;
     }
     return 0;
@@ -110,12 +119,21 @@ void hx711_init()
     // Clocks as outputs
     DDRC |= _BV(PC0) | _BV(PC2);
     DDRD |= _BV(PD3);
+    #if defined(__AVR_ATmega328PB__)
     DDRE |= _BV(PE2);
+    #else
+    DDRB |= _BV(PB0);
+    #endif
 
     // Enabling pull up on inputs
     PORTC |= _BV(PC1) | _BV(PC3);
     PORTD |= _BV(PD4);
+    
+    #if defined(__AVR_ATmega328PB__)
     PORTE |= _BV(PE3);
+    #else
+    PORTB |= _BV(PB1);
+    #endif
  
     int k;
     for (k=0; k<4; k++) {
